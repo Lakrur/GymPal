@@ -1,24 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8FD-WD-V5o">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Упражнения-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ExercisesTableViewController" customModule="GymPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLj-IN-EaQ">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Упражнения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-Kl-5fI">
+                                        <rect key="frame" x="17" y="111" width="213" height="36"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="QhG-Kl-5fI" firstAttribute="leading" secondItem="iLj-IN-EaQ" secondAttribute="leading" constant="17" id="ERl-Cu-D8H"/>
+                                    <constraint firstAttribute="width" constant="390" id="Lfc-qy-SrP"/>
+                                    <constraint firstAttribute="height" constant="161" id="b4C-1f-0Bi"/>
+                                    <constraint firstAttribute="bottom" secondItem="QhG-Kl-5fI" secondAttribute="bottom" constant="14" id="oII-U9-Syh"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bU6-L0-862">
+                                <rect key="frame" x="0.0" y="161" width="390" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="exercisesCell" rowHeight="114" id="p0o-Jw-4FB" customClass="ExercisesTableViewCell" customModule="GymPal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="p0o-Jw-4FB" id="Gn0-EN-j5j">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5B8-bO-2R0">
+                                                    <rect key="frame" x="26" y="24" width="80" height="68"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="JLm-IF-X7a"/>
+                                                        <constraint firstAttribute="width" constant="80" id="Rqt-PB-ZFL"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Упражнения" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lls-aa-t6Q">
+                                                    <rect key="frame" x="123" y="11" width="253" height="92"/>
+                                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="19"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="5B8-bO-2R0" firstAttribute="leading" secondItem="Gn0-EN-j5j" secondAttribute="leadingMargin" constant="6" id="7o2-7o-kn5"/>
+                                                <constraint firstAttribute="trailing" secondItem="Lls-aa-t6Q" secondAttribute="trailing" constant="14" id="Nfh-qJ-zoC"/>
+                                                <constraint firstItem="Lls-aa-t6Q" firstAttribute="leading" secondItem="5B8-bO-2R0" secondAttribute="trailing" constant="17" id="e7g-vj-E76"/>
+                                                <constraint firstItem="Lls-aa-t6Q" firstAttribute="top" secondItem="Gn0-EN-j5j" secondAttribute="top" constant="11" id="kR0-KB-wWl"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="5B8-bO-2R0" secondAttribute="bottom" constant="11" id="lIc-Pz-06Q"/>
+                                                <constraint firstAttribute="bottom" secondItem="Lls-aa-t6Q" secondAttribute="bottom" constant="11" id="vPI-dh-0Pp"/>
+                                                <constraint firstItem="5B8-bO-2R0" firstAttribute="top" secondItem="Gn0-EN-j5j" secondAttribute="topMargin" constant="13" id="vQ4-T5-LKc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="exercisesImage" destination="5B8-bO-2R0" id="NAn-r6-d7R"/>
+                                            <outlet property="exercisesNameLabel" destination="Lls-aa-t6Q" id="GOd-a3-m9C"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="iLj-IN-EaQ" secondAttribute="trailing" id="99v-lh-8E2"/>
+                            <constraint firstItem="bU6-L0-862" firstAttribute="top" secondItem="iLj-IN-EaQ" secondAttribute="bottom" id="Fho-9u-Y60"/>
+                            <constraint firstItem="iLj-IN-EaQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="PdJ-xN-1b7"/>
+                            <constraint firstItem="bU6-L0-862" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Vub-vc-lma"/>
+                            <constraint firstItem="bU6-L0-862" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u6y-rQ-2Z6"/>
+                            <constraint firstItem="bU6-L0-862" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uPV-ZL-dMV"/>
+                            <constraint firstItem="iLj-IN-EaQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="we5-Ti-oa5"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Упражнения" image="exercises" id="86S-zd-hfk"/>
+                    <connections>
+                        <outlet property="tableView" destination="bU6-L0-862" id="uiU-27-2sO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="967.69230769230762" y="-441.46919431279616"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="1Hp-aS-72h">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="8FD-WD-V5o" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="exercises" id="X3o-Lz-GFh">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="x6v-Bu-FXC"/>
+                        <segue destination="08E-uY-DdB" kind="relationship" relationship="viewControllers" id="lOy-HS-tKe"/>
+                        <segue destination="eaN-md-J2d" kind="relationship" relationship="viewControllers" id="lCE-gR-uaO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Eio-cD-rjw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-627" y="304"/>
+        </scene>
+        <!--Планы-->
+        <scene sceneID="gEp-Fk-bSz">
+            <objects>
+                <viewController id="08E-uY-DdB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UBh-0t-xKf">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gk-ux-hGf">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Планы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-SH-zcB">
+                                        <rect key="frame" x="17" y="111" width="113" height="36"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="390" id="5oi-7B-CNo"/>
+                                    <constraint firstItem="rfN-SH-zcB" firstAttribute="leading" secondItem="8gk-ux-hGf" secondAttribute="leading" constant="17" id="Wmm-z5-WS6"/>
+                                    <constraint firstAttribute="height" constant="161" id="ivt-s5-K1N"/>
+                                    <constraint firstAttribute="bottom" secondItem="rfN-SH-zcB" secondAttribute="bottom" constant="14" id="lF1-Zu-INe"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="o1O-10-caL"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="8gk-ux-hGf" firstAttribute="top" secondItem="UBh-0t-xKf" secondAttribute="top" id="43d-6e-r35"/>
+                            <constraint firstItem="8gk-ux-hGf" firstAttribute="trailing" secondItem="o1O-10-caL" secondAttribute="trailing" id="C7r-1Q-Cec"/>
+                            <constraint firstItem="8gk-ux-hGf" firstAttribute="leading" secondItem="o1O-10-caL" secondAttribute="leading" id="bua-2y-r3K"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Планы" image="plans" id="dVS-IP-Zgy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zYx-Mg-N2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969.23076923076917" y="312.7962085308057"/>
+        </scene>
+        <!--Прогресс-->
+        <scene sceneID="Jbb-e1-Ne0">
+            <objects>
+                <viewController id="eaN-md-J2d" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NQY-BI-EdM">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bC-4t-95W">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Прогресс" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U7-0U-vX2">
+                                        <rect key="frame" x="17" y="111" width="155" height="36"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="4uD-xg-2rA"/>
+                                    <constraint firstAttribute="bottom" secondItem="3U7-0U-vX2" secondAttribute="bottom" constant="14" id="8V0-VE-Bq0"/>
+                                    <constraint firstAttribute="width" constant="390" id="Kzr-wx-XvS"/>
+                                    <constraint firstItem="3U7-0U-vX2" firstAttribute="leading" secondItem="1bC-4t-95W" secondAttribute="leading" constant="17" id="kFx-pz-PZU"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GuJ-HP-uvT"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="1bC-4t-95W" secondAttribute="trailing" id="TsK-gV-bSf"/>
+                            <constraint firstItem="1bC-4t-95W" firstAttribute="top" secondItem="NQY-BI-EdM" secondAttribute="top" id="bEq-PW-LEL"/>
+                            <constraint firstItem="1bC-4t-95W" firstAttribute="leading" secondItem="GuJ-HP-uvT" secondAttribute="leading" id="pq0-6e-REP"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Прогресс" image="stats" id="Dmk-qJ-u8O"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BkN-RC-epb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="1100"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="exercises" width="25" height="25"/>
+        <image name="plans" width="25" height="25"/>
+        <image name="stats" width="30" height="30"/>
+    </resources>
 </document>
