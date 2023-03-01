@@ -16,6 +16,8 @@ class ExercisesTableViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.backgroundColor = UIColor.white
+        
         tableView.delegate = self
         tableView.dataSource = self
         
