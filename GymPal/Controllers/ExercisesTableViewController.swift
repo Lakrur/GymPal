@@ -9,10 +9,10 @@ import UIKit
 
 class ExercisesTableViewController: UIViewController {
     
-    var exercisesList: [ExercisesList]!
+    var muscleGroupsList: [MuscleGroupWorkouts]!
     
     @IBOutlet weak var tableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -21,27 +21,27 @@ class ExercisesTableViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         
-        exercisesList = [
-        ExercisesList(image: UIImage(named: "traps")!, exercisesName: "Трапеция"),
-        ExercisesList(image: UIImage(named: "traps(mid-back)")!, exercisesName: "Трапеция (Середина Спины)"),
-        ExercisesList(image: UIImage(named: "lats")!, exercisesName: "Широчайшие"),
-        ExercisesList(image: UIImage(named: "lowerBack")!, exercisesName: "Низ Спины"),
-        ExercisesList(image: UIImage(named: "shoulders")!, exercisesName: "Плечи"),
-        ExercisesList(image: UIImage(named: "chest")!, exercisesName: "Грудные Мышцы"),
-        ExercisesList(image: UIImage(named: "triceps")!, exercisesName: "Трицепсы"),
-        ExercisesList(image: UIImage(named: "biceps")!, exercisesName: "Бицепсы"),
-        ExercisesList(image: UIImage(named: "forearms")!, exercisesName: "Предплечья"),
-        ExercisesList(image: UIImage(named: "obliques")!, exercisesName: "Косые"),
-        ExercisesList(image: UIImage(named: "abdominals")!, exercisesName: "Мышцы Пресса"),
-        ExercisesList(image: UIImage(named: "quads")!, exercisesName: "Квадрицепс"),
-        ExercisesList(image: UIImage(named: "hamstrings")!, exercisesName: "Мышцы Задней Поверхности Бедра"),
-        ExercisesList(image: UIImage(named: "glutes")!, exercisesName: "Ягодицы"),
-        ExercisesList(image: UIImage(named: "calves")!, exercisesName: "Икроножная")]
+        muscleGroupsList = [
+            MuscleGroupWorkouts(image: UIImage(named: "traps")!, exercisesName: "Traps", muscleGroup: .traps),
+            MuscleGroupWorkouts(image: UIImage(named: "traps(mid-back)")!, exercisesName: "Traps(mid-back)", muscleGroup: .trapsMidBack),
+            MuscleGroupWorkouts(image: UIImage(named: "lats")!, exercisesName: "Lats", muscleGroup: .lats),
+            MuscleGroupWorkouts(image: UIImage(named: "lowerBack")!, exercisesName: "Lower Back", muscleGroup: .lowerBack),
+            MuscleGroupWorkouts(image: UIImage(named: "shoulders")!, exercisesName: "Shoulders", muscleGroup: .shoulders),
+            MuscleGroupWorkouts(image: UIImage(named: "chest")!, exercisesName: "Chest", muscleGroup: .chest),
+            MuscleGroupWorkouts(image: UIImage(named: "triceps")!, exercisesName: "Triceps", muscleGroup: .triceps),
+            MuscleGroupWorkouts(image: UIImage(named: "biceps")!, exercisesName: "Biceps", muscleGroup: .biceps),
+            MuscleGroupWorkouts(image: UIImage(named: "forearms")!, exercisesName: "Forearms", muscleGroup: .forearms),
+            MuscleGroupWorkouts(image: UIImage(named: "obliques")!, exercisesName: "Obliques", muscleGroup: .obliques),
+            MuscleGroupWorkouts(image: UIImage(named: "abdominals")!, exercisesName: "Abdominals", muscleGroup: .abdominals),
+            MuscleGroupWorkouts(image: UIImage(named: "quads")!, exercisesName: "Quads", muscleGroup: .quads),
+            MuscleGroupWorkouts(image: UIImage(named: "hamstrings")!, exercisesName: "Hamstrings", muscleGroup: .hamstrings),
+            MuscleGroupWorkouts(image: UIImage(named: "glutes")!, exercisesName: "Glutes", muscleGroup: .glutes),
+            MuscleGroupWorkouts(image: UIImage(named: "calves")!, exercisesName: "Calves", muscleGroup: .calves)]
         
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return exercisesList.count
+        return muscleGroupsList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -49,15 +49,26 @@ class ExercisesTableViewController: UIViewController {
         
         guard let tableViewCell = cell else { return UITableViewCell() }
         
-        let exerciceList = exercisesList[indexPath.row]
+        let exerciceList = muscleGroupsList[indexPath.row]
         
         tableViewCell.exercisesImage.image = exerciceList.image
         tableViewCell.exercisesNameLabel.text = exerciceList.exercisesName
         
         return tableViewCell
     }
-
-
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowMuscleGroupDetail" {
+            if let indexPath = self.tableView.indexPathForSelectedRow {
+                let muscleGroupDetailVC = segue.destination as! MuscleGroupDetailVC
+                muscleGroupDetailVC.muscleGroupsNames = muscleGroupsList[indexPath.row].exercisesName
+                if muscleGroupsList[indexPath.row].muscleGroup == muscleGroupsList[indexPath.row].muscleGroup {
+                    muscleGroupDetailVC.muscleGroup = muscleGroupsList[indexPath.row].muscleGroup
+                }
+            }
+        }
+    }
+    
 }
 
 extension ExercisesTableViewController: UITableViewDelegate, UITableViewDataSource {

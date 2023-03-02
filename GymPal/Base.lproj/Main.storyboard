@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Упражнения-->
+        <!--Exercises Table View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ExercisesTableViewController" customModule="GymPal" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,8 +18,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iLj-IN-EaQ">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Упражнения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-Kl-5fI">
-                                        <rect key="frame" x="17" y="111" width="213" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-Kl-5fI">
+                                        <rect key="frame" x="17" y="111" width="154" height="36"/>
                                         <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -36,6 +36,7 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bU6-L0-862">
                                 <rect key="frame" x="0.0" y="161" width="390" height="600"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="exercisesCell" rowHeight="114" id="p0o-Jw-4FB" customClass="ExercisesTableViewCell" customModule="GymPal" customModuleProvider="target">
@@ -52,7 +53,7 @@
                                                         <constraint firstAttribute="width" constant="80" id="Rqt-PB-ZFL"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Упражнения" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lls-aa-t6Q">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lls-aa-t6Q">
                                                     <rect key="frame" x="123" y="11" width="253" height="92"/>
                                                     <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="19"/>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -73,6 +74,7 @@
                                         <connections>
                                             <outlet property="exercisesImage" destination="5B8-bO-2R0" id="NAn-r6-d7R"/>
                                             <outlet property="exercisesNameLabel" destination="Lls-aa-t6Q" id="GOd-a3-m9C"/>
+                                            <segue destination="lTW-pJ-Csv" kind="show" identifier="ShowMuscleGroupDetail" id="W7c-t3-FGh"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -90,14 +92,110 @@
                             <constraint firstItem="iLj-IN-EaQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="we5-Ti-oa5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Упражнения" image="exercises" id="86S-zd-hfk"/>
+                    <navigationItem key="navigationItem" id="ZCG-I3-pWR"/>
                     <connections>
                         <outlet property="tableView" destination="bU6-L0-862" id="uiU-27-2sO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="967.69230769230762" y="-441.46919431279616"/>
+            <point key="canvasLocation" x="1896.9230769230769" y="-441.46919431279616"/>
+        </scene>
+        <!--Muscle Group DetailVC-->
+        <scene sceneID="GyY-Qe-orO">
+            <objects>
+                <viewController id="lTW-pJ-Csv" customClass="MuscleGroupDetailVC" customModule="GymPal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bqj-kX-8FB">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nTy-BY-AAu">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XTE-Ph-m4j">
+                                        <rect key="frame" x="17" y="111" width="373" height="36"/>
+                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="SJW-hQ-y4P"/>
+                                    <constraint firstAttribute="trailing" secondItem="XTE-Ph-m4j" secondAttribute="trailing" id="TdL-yH-Qut"/>
+                                    <constraint firstAttribute="bottom" secondItem="XTE-Ph-m4j" secondAttribute="bottom" constant="14" id="ahz-Hq-Mnw"/>
+                                    <constraint firstAttribute="width" constant="390" id="dQD-Ls-UNE"/>
+                                    <constraint firstItem="XTE-Ph-m4j" firstAttribute="leading" secondItem="nTy-BY-AAu" secondAttribute="leading" constant="17" id="nGk-S8-6sv"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="tV7-mJ-0dH">
+                                <rect key="frame" x="0.0" y="161" width="390" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="separatorColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="sectionIndexBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="muscleGroupExercises" rowHeight="114" id="hCi-cH-bgf" customClass="MuscleExercisesTableViewCell" customModule="GymPal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="114"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hCi-cH-bgf" id="Hrw-W1-vQV">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="114"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jdh-qe-b5o">
+                                                    <rect key="frame" x="26" y="24" width="80" height="68"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="1yv-AY-MBA"/>
+                                                        <constraint firstAttribute="width" constant="80" id="iv8-jp-vaM"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exercises" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFL-tY-t9P">
+                                                    <rect key="frame" x="123" y="11" width="253" height="92"/>
+                                                    <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="19"/>
+                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="QFL-tY-t9P" secondAttribute="bottom" constant="11" id="HYQ-U7-uGY"/>
+                                                <constraint firstItem="Jdh-qe-b5o" firstAttribute="top" secondItem="Hrw-W1-vQV" secondAttribute="topMargin" constant="13" id="YvL-bJ-B0z"/>
+                                                <constraint firstAttribute="trailing" secondItem="QFL-tY-t9P" secondAttribute="trailing" constant="14" id="eMs-BK-EIs"/>
+                                                <constraint firstItem="QFL-tY-t9P" firstAttribute="top" secondItem="Hrw-W1-vQV" secondAttribute="top" constant="11" id="mih-Ld-Bu8"/>
+                                                <constraint firstItem="Jdh-qe-b5o" firstAttribute="leading" secondItem="Hrw-W1-vQV" secondAttribute="leadingMargin" constant="6" id="rkD-O8-Zm4"/>
+                                                <constraint firstItem="QFL-tY-t9P" firstAttribute="leading" secondItem="Jdh-qe-b5o" secondAttribute="trailing" constant="17" id="rwS-3q-0Pn"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Jdh-qe-b5o" secondAttribute="bottom" constant="11" id="tC1-s1-YSV"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="exercisesImage" destination="Jdh-qe-b5o" id="dXd-qM-WwE"/>
+                                            <outlet property="exercisesNameLabel" destination="QFL-tY-t9P" id="hKa-WI-F4u"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1LA-NA-1e4"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nTy-BY-AAu" firstAttribute="top" secondItem="bqj-kX-8FB" secondAttribute="top" id="E9I-DB-2VH"/>
+                            <constraint firstItem="tV7-mJ-0dH" firstAttribute="bottom" secondItem="1LA-NA-1e4" secondAttribute="bottom" id="IAK-RW-XbJ"/>
+                            <constraint firstItem="nTy-BY-AAu" firstAttribute="trailing" secondItem="1LA-NA-1e4" secondAttribute="trailing" id="dwU-sQ-E91"/>
+                            <constraint firstItem="tV7-mJ-0dH" firstAttribute="trailing" secondItem="1LA-NA-1e4" secondAttribute="trailing" id="eHs-Ck-g1S"/>
+                            <constraint firstItem="tV7-mJ-0dH" firstAttribute="leading" secondItem="1LA-NA-1e4" secondAttribute="leading" id="fWO-9W-EoS"/>
+                            <constraint firstItem="tV7-mJ-0dH" firstAttribute="top" secondItem="nTy-BY-AAu" secondAttribute="bottom" id="ncR-hr-41n"/>
+                            <constraint firstItem="nTy-BY-AAu" firstAttribute="leading" secondItem="1LA-NA-1e4" secondAttribute="leading" id="tcW-WT-cqE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8HO-Ie-6nm"/>
+                    <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="tableView" destination="tV7-mJ-0dH" id="pmn-8R-jeZ"/>
+                        <outlet property="titleMuscleGroup" destination="XTE-Ph-m4j" id="8RL-KN-zsZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e02-4s-g9j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2849.2307692307691" y="-441.46919431279616"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="1Hp-aS-72h">
@@ -112,7 +210,7 @@
                         <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="x6v-Bu-FXC"/>
+                        <segue destination="ApM-HJ-X4z" kind="relationship" relationship="viewControllers" id="x6v-Bu-FXC"/>
                         <segue destination="08E-uY-DdB" kind="relationship" relationship="viewControllers" id="lOy-HS-tKe"/>
                         <segue destination="eaN-md-J2d" kind="relationship" relationship="viewControllers" id="lCE-gR-uaO"/>
                     </connections>
@@ -121,7 +219,7 @@
             </objects>
             <point key="canvasLocation" x="-627" y="304"/>
         </scene>
-        <!--Планы-->
+        <!--Plans-->
         <scene sceneID="gEp-Fk-bSz">
             <objects>
                 <viewController id="08E-uY-DdB" sceneMemberID="viewController">
@@ -132,8 +230,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gk-ux-hGf">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Планы" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-SH-zcB">
-                                        <rect key="frame" x="17" y="111" width="113" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-SH-zcB">
+                                        <rect key="frame" x="17" y="111" width="89" height="36"/>
                                         <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -156,13 +254,13 @@
                             <constraint firstItem="8gk-ux-hGf" firstAttribute="leading" secondItem="o1O-10-caL" secondAttribute="leading" id="bua-2y-r3K"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Планы" image="plans" id="dVS-IP-Zgy"/>
+                    <tabBarItem key="tabBarItem" title="Plans" image="plans" id="dVS-IP-Zgy"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zYx-Mg-N2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="969.23076923076917" y="312.7962085308057"/>
         </scene>
-        <!--Прогресс-->
+        <!--Progress-->
         <scene sceneID="Jbb-e1-Ne0">
             <objects>
                 <viewController id="eaN-md-J2d" sceneMemberID="viewController">
@@ -173,8 +271,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1bC-4t-95W">
                                 <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Прогресс" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U7-0U-vX2">
-                                        <rect key="frame" x="17" y="111" width="155" height="36"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Progress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U7-0U-vX2">
+                                        <rect key="frame" x="17" y="111" width="144" height="36"/>
                                         <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -197,11 +295,38 @@
                             <constraint firstItem="1bC-4t-95W" firstAttribute="leading" secondItem="GuJ-HP-uvT" secondAttribute="leading" id="pq0-6e-REP"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Прогресс" image="stats" id="Dmk-qJ-u8O"/>
+                    <tabBarItem key="tabBarItem" title="Progress" image="stats" id="Dmk-qJ-u8O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BkN-RC-epb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="969" y="1100"/>
+        </scene>
+        <!--Exercises-->
+        <scene sceneID="BbA-3V-gge">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ApM-HJ-X4z" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Exercises" image="exercises" id="86S-zd-hfk"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gkh-VY-njo">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="F3r-Y6-gaa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s4m-Ew-l9s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="967.69230769230762" y="-441.46919431279616"/>
         </scene>
     </scenes>
     <resources>
