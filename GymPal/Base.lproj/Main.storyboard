@@ -25,7 +25,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="QhG-Kl-5fI" firstAttribute="leading" secondItem="iLj-IN-EaQ" secondAttribute="leading" constant="17" id="ERl-Cu-D8H"/>
                                     <constraint firstAttribute="width" constant="390" id="Lfc-qy-SrP"/>
@@ -119,7 +119,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="161" id="SJW-hQ-y4P"/>
                                     <constraint firstAttribute="trailing" secondItem="XTE-Ph-m4j" secondAttribute="trailing" id="TdL-yH-Qut"/>
@@ -205,9 +205,9 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="exercises" id="X3o-Lz-GFh">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="ApM-HJ-X4z" kind="relationship" relationship="viewControllers" id="x6v-Bu-FXC"/>
@@ -237,7 +237,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="390" id="5oi-7B-CNo"/>
                                     <constraint firstItem="rfN-SH-zcB" firstAttribute="leading" secondItem="8gk-ux-hGf" secondAttribute="leading" constant="17" id="Wmm-z5-WS6"/>
@@ -278,7 +278,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.84493756289999999" green="0.54329377410000002" blue="0.427421838" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="161" id="4uD-xg-2rA"/>
                                     <constraint firstAttribute="bottom" secondItem="3U7-0U-vX2" secondAttribute="bottom" constant="14" id="8V0-VE-Bq0"/>

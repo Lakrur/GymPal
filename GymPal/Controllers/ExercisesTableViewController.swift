@@ -23,7 +23,6 @@ class ExercisesTableViewController: UIViewController {
         
         muscleGroupsList = [
             MuscleGroupWorkouts(image: UIImage(named: "traps")!, exercisesName: "Traps", muscleGroup: .traps),
-            MuscleGroupWorkouts(image: UIImage(named: "traps(mid-back)")!, exercisesName: "Traps(mid-back)", muscleGroup: .trapsMidBack),
             MuscleGroupWorkouts(image: UIImage(named: "lats")!, exercisesName: "Lats", muscleGroup: .lats),
             MuscleGroupWorkouts(image: UIImage(named: "lowerBack")!, exercisesName: "Lower Back", muscleGroup: .lowerBack),
             MuscleGroupWorkouts(image: UIImage(named: "shoulders")!, exercisesName: "Shoulders", muscleGroup: .shoulders),
@@ -62,9 +61,7 @@ class ExercisesTableViewController: UIViewController {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let muscleGroupDetailVC = segue.destination as! MuscleGroupDetailVC
                 muscleGroupDetailVC.muscleGroupsNames = muscleGroupsList[indexPath.row].exercisesName
-                if muscleGroupsList[indexPath.row].muscleGroup == muscleGroupsList[indexPath.row].muscleGroup {
-                    muscleGroupDetailVC.muscleGroup = muscleGroupsList[indexPath.row].muscleGroup
-                }
+                muscleGroupDetailVC.muscleGroup = muscleGroupsList[indexPath.row].muscleGroup
             }
         }
     }

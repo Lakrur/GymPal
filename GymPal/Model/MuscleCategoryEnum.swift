@@ -10,7 +10,6 @@ import Foundation
 enum MuscleGroup {
     
     case traps
-    case trapsMidBack
     case lats
     case lowerBack
     case shoulders
