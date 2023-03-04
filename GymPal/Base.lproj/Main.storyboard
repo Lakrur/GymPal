@@ -341,7 +341,7 @@
                                     <constraint firstAttribute="height" constant="128" id="b8F-hw-xHR"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description Exercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1a3-jq-c2h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description Exercise" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1a3-jq-c2h">
                                 <rect key="frame" x="16" y="261" width="358" height="476"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="476" id="dS7-Ld-0bP"/>

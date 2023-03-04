@@ -17,20 +17,16 @@ class ExercisesViewController: UIViewController {
     @IBOutlet weak var secondVidjet: UIView!
     @IBOutlet weak var thirdVidjet: UIView!
     
-    @IBOutlet weak var exerciseDescriptionLabel: UILabel!
-    @IBOutlet weak var exerciseImage: UIImageView!
-    
-    
-    
     
     var getExerciseGif = ""
     var exerciseNameText = ""
+    var getExerciseDescription = ""
+    
+    var exerciseDescription = ""
+    var exerciseImage: UIImage?
    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
         
         exerciseName.text = exerciseNameText
         backStaticsView.layer.cornerRadius = 10
@@ -45,11 +41,18 @@ class ExercisesViewController: UIViewController {
         super.viewWillAppear(animated)
         tabBarController?.tabBar.isHidden = true
     }
-    
+  
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+           if segue.identifier == "ShowExerciseDesription" {
+               let descriptionExercisesVC = segue.destination as! DescriptionExercisesViewController
+               descriptionExercisesVC.exerciseDescription = exerciseDescription
+               descriptionExercisesVC.exerciseImage = exerciseImage
+           }
+       }
     
     @IBAction func infoButton(_ sender: Any) {
-        
     }
+   
     
 }
 
