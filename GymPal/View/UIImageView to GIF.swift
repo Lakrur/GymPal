@@ -1,5 +1,5 @@
 //
-//  UIView to GIF.swift
+//  UIImageView to GIF.swift
 //  GymPal
 //
 //  Created by Yehor Krupiei on 04.03.2023.

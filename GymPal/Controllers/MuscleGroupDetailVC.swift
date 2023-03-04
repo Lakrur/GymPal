@@ -32,7 +32,7 @@ class MuscleGroupDetailVC: UIViewController {
             MuscleGroupExercises(name: "Dumbell Seated Shrugs",image: UIImage(named: "seatedShrug")!, description: "Sit on a bench with dumbbells in both hands, palms facing your body, back straight.Elevate your shoulders and hold the contracted position at the apex of the motion. Slowly lower your shoulders back to starting position.", muscleGroup: .traps, presentation: "DumbellSeatedShrugs"),
             MuscleGroupExercises(name: "Dumbbell Shrugs", image: UIImage(named: "dumbbellShrug")!, description: "Stand tall with two dumbbells. Pull your shoulder blades up. Give a one second squeeze at the top.", muscleGroup: .traps, presentation: "DumbbellShrugs"),
             MuscleGroupExercises(name: "Barbell Shrugs", image: UIImage(named: "barbellShrugs")!, description: "Position the safeties just below waist height in a rack. Assume a standing position with the bar in front of your body. Hinge forward, inhale, and grab the bar with a double overhand grip. Stand up tall and ensure your spine remains neutral. Contract the traps to elevate the shoulders. Squeeze hard at the top and slowly lower the bar back to the starting position. Repeat for the desired number of repetitions.", muscleGroup: .traps, presentation: "BarbellShrugs"),
-            MuscleGroupExercises(name: "Behind the Back Shrugs", image: UIImage(named: "backShrugs")!, description: "A variation of the conventional shrug that places the source of resistance beind the exerciser’s back - this particular shrug variation allows for a greater activation of the triceps brachii while simultaneously reducing deltoid muscle involvement. As such, for exercisers wishing to train their trapezius muscle to an extent greater than what conventional shrugs can offer, this variation may be the most suitable.", muscleGroup: .traps, presentation: "BehindTheBackShrugs"),
+            MuscleGroupExercises(name: "Behind the Back Shrugs", image: UIImage(named: "backShrugs")!, description: "A variation of the conventional shrug that places the source of resistance beind the exerciser’s back - this particular shrug variation allows for a greater activation of the triceps brachii while simultaneously reducing deltoid muscle involvement. As such, for exercisers wishing to train their trapezius muscle to an extent greater than what conventional shrugs can offer, this variation may be the most suitable.", muscleGroup: .traps, presentation: "Behind The Back Shrugs"),
             MuscleGroupExercises(name: "Overhead Shrugs", image: UIImage(named: "overheadShrugs")!, description: "On the opposite end of the spectrum to behind the back shrugs, overhead shrugs are a variation of the shrug that raises the weights over the exercisers head so as to activate the entirety of the upper and middle back musculature. Overhead shrugs are a more suitable alternative for exercisers that find the isolated muscular recruitment pattern of the conventional shrug to be inefficient and time consuming, allowing them to train the entirety of their back and shoulders in a single exercise.", muscleGroup: .traps, presentation: "OverheadShrugs"),
             // lats
             MuscleGroupExercises(name: "Pull Ups", image: UIImage(named: "pullUps")!, description: "", muscleGroup: .lats, presentation: "PullUps"),
@@ -116,6 +116,11 @@ class MuscleGroupDetailVC: UIViewController {
         exercisesList = exercisesList.filter { $0.muscleGroup == muscleGroup }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tabBarController?.tabBar.isHidden = false
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return exercisesList.filter({ $0.muscleGroup == muscleGroup }).count
     }
@@ -136,8 +141,9 @@ class MuscleGroupDetailVC: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowExercisesDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
-                let descriptionExercisesVC = segue.destination as! DescriptionExercisesViewController
-                descriptionExercisesVC.getExerciseGif = exercisesList[indexPath.row].presentation
+                let exercisesVC = segue.destination as! ExercisesViewController
+                exercisesVC.getExerciseGif = exercisesList[indexPath.row].presentation
+                exercisesVC.exerciseNameText = exercisesList[indexPath.row].name
             }
         }
     }

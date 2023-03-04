@@ -43,7 +43,6 @@
 		789BA2CB29B3ADEB0095ACEE /* Dumbbell Russian Twist.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28429B3ADEB0095ACEE /* Dumbbell Russian Twist.gif */; };
 		789BA2CC29B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28529B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif */; };
 		789BA2CD29B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28629B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif */; };
-		789BA2CE29B3ADEB0095ACEE /* BehindTheBackShrugs.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */; };
 		789BA2CF29B3ADEB0095ACEE /* DumbbellShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */; };
 		789BA2D029B3ADEB0095ACEE /* OverheadShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */; };
 		789BA2D129B3ADEB0095ACEE /* DumbellSeatedShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */; };
@@ -72,6 +71,8 @@
 		789BA2E829B3ADEB0095ACEE /* ReverseButterfly.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A729B3ADEB0095ACEE /* ReverseButterfly.gif */; };
 		789BA2E929B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A829B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif */; };
 		789BA2EA29B3ADEB0095ACEE /* DumbbellFrontRaise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */; };
+		789BA2EC29B3BFF00095ACEE /* Behind The Back Shrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2EB29B3BFF00095ACEE /* Behind The Back Shrugs.gif */; };
+		78BF753729B3D98100BCAED6 /* DescriptionExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */; };
 		78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692129AF92BF00862D8D /* AppDelegate.swift */; };
 		78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692329AF92BF00862D8D /* SceneDelegate.swift */; };
 		78D4692629AF92BF00862D8D /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692529AF92BF00862D8D /* ExercisesTableViewController.swift */; };
@@ -84,8 +85,8 @@
 		78D4699229B14BCA00862D8D /* MuscleGroupExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699129B14BCA00862D8D /* MuscleGroupExercises.swift */; };
 		78D4699429B14C4300862D8D /* MuscleCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699329B14C4300862D8D /* MuscleCategoryEnum.swift */; };
 		78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */; };
-		78D4699829B2AE2900862D8D /* UIView to GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699729B2AE2900862D8D /* UIView to GIF.swift */; };
-		78D4699A29B2AE6000862D8D /* DescriptionExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */; };
+		78D4699829B2AE2900862D8D /* UIImageView to GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */; };
+		78D4699A29B2AE6000862D8D /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699929B2AE6000862D8D /* ExercisesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,7 +126,6 @@
 		789BA28429B3ADEB0095ACEE /* Dumbbell Russian Twist.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Russian Twist.gif"; sourceTree = "<group>"; };
 		789BA28529B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Wood Chopper.gif"; sourceTree = "<group>"; };
 		789BA28629B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Overhead Side Bend.gif"; sourceTree = "<group>"; };
-		789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BehindTheBackShrugs.GIF; sourceTree = "<group>"; };
 		789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellShrugs.gif; sourceTree = "<group>"; };
 		789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OverheadShrugs.gif; sourceTree = "<group>"; };
 		789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbellSeatedShrugs.gif; sourceTree = "<group>"; };
@@ -154,6 +154,8 @@
 		789BA2A729B3ADEB0095ACEE /* ReverseButterfly.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ReverseButterfly.gif; sourceTree = "<group>"; };
 		789BA2A829B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellSeatedOverheadPress.gif; sourceTree = "<group>"; };
 		789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellFrontRaise.gif; sourceTree = "<group>"; };
+		789BA2EB29B3BFF00095ACEE /* Behind The Back Shrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Behind The Back Shrugs.gif"; sourceTree = "<group>"; };
+		78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionExercisesViewController.swift; sourceTree = "<group>"; };
 		78D4691E29AF92BF00862D8D /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D4692129AF92BF00862D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78D4692329AF92BF00862D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -168,8 +170,8 @@
 		78D4699129B14BCA00862D8D /* MuscleGroupExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupExercises.swift; sourceTree = "<group>"; };
 		78D4699329B14C4300862D8D /* MuscleCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCategoryEnum.swift; sourceTree = "<group>"; };
 		78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleExercisesTableViewCell.swift; sourceTree = "<group>"; };
-		78D4699729B2AE2900862D8D /* UIView to GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView to GIF.swift"; sourceTree = "<group>"; };
-		78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionExercisesViewController.swift; sourceTree = "<group>"; };
+		78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView to GIF.swift"; sourceTree = "<group>"; };
+		78D4699929B2AE6000862D8D /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,9 +301,9 @@
 		789BA28729B3ADEB0095ACEE /* Traps */ = {
 			isa = PBXGroup;
 			children = (
-				789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */,
 				789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */,
 				789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */,
+				789BA2EB29B3BFF00095ACEE /* Behind The Back Shrugs.gif */,
 				789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */,
 				789BA28C29B3ADEB0095ACEE /* BarbellShrugs.gif */,
 			);
@@ -405,7 +407,8 @@
 			children = (
 				78D4692529AF92BF00862D8D /* ExercisesTableViewController.swift */,
 				78D4698F29B0E60D00862D8D /* MuscleGroupDetailVC.swift */,
-				78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */,
+				78D4699929B2AE6000862D8D /* ExercisesViewController.swift */,
+				78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -415,7 +418,7 @@
 			children = (
 				78D4698429AFB5DE00862D8D /* ExercisesTableViewCell.swift */,
 				78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */,
-				78D4699729B2AE2900862D8D /* UIView to GIF.swift */,
+				78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -534,9 +537,9 @@
 				789BA2D529B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif in Resources */,
 				789BA2B029B3ADEB0095ACEE /* Step Up.gif in Resources */,
 				789BA2E829B3ADEB0095ACEE /* ReverseButterfly.gif in Resources */,
+				789BA2EC29B3BFF00095ACEE /* Behind The Back Shrugs.gif in Resources */,
 				789BA2B829B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif in Resources */,
 				78D4692E29AF92C100862D8D /* LaunchScreen.storyboard in Resources */,
-				789BA2CE29B3ADEB0095ACEE /* BehindTheBackShrugs.GIF in Resources */,
 				789BA2C929B3ADEB0095ACEE /* Crunches.gif in Resources */,
 				789BA2B629B3ADEB0095ACEE /* Machine Hamstring Curl.gif in Resources */,
 				789BA2EA29B3ADEB0095ACEE /* DumbbellFrontRaise.gif in Resources */,
@@ -571,11 +574,12 @@
 				78D4698529AFB5DE00862D8D /* ExercisesTableViewCell.swift in Sources */,
 				78D4699029B0E60D00862D8D /* MuscleGroupDetailVC.swift in Sources */,
 				78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */,
+				78BF753729B3D98100BCAED6 /* DescriptionExercisesViewController.swift in Sources */,
 				78D4698A29AFB84700862D8D /* MuscleGroupWorkouts.swift in Sources */,
-				78D4699829B2AE2900862D8D /* UIView to GIF.swift in Sources */,
+				78D4699829B2AE2900862D8D /* UIImageView to GIF.swift in Sources */,
 				78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */,
 				78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */,
-				78D4699A29B2AE6000862D8D /* DescriptionExercisesViewController.swift in Sources */,
+				78D4699A29B2AE6000862D8D /* ExercisesViewController.swift in Sources */,
 				78D4699429B14C4300862D8D /* MuscleCategoryEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

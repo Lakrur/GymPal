@@ -10,17 +10,15 @@ import UIKit
 class DescriptionExercisesViewController: UIViewController {
     
     
-    @IBOutlet weak var exerciseGif: UIImageView!
-    
-    var getExerciseGif = ""
+    @IBOutlet weak var exercisePicture: UIImageView!
+    @IBOutlet weak var exerciseLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        exerciseGif.loadGif(name: getExerciseGif)
-      
+     
     }
     
 
-    
+   
+
 }
