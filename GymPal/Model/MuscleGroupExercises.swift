@@ -12,8 +12,8 @@ struct MuscleGroupExercises {
     
     var name: String
     var image: UIImage
-    //var presentation: gif
     var description: String
     var muscleGroup: MuscleGroup
+    var presentation: String
     
 }

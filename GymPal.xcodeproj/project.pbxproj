@@ -7,6 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		789BA2AA29B3ADEB0095ACEE /* Dumbbell Concentration Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA25C29B3ADEB0095ACEE /* Dumbbell Concentration Curl.gif */; };
+		789BA2AB29B3ADEB0095ACEE /* Chin Ups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA25D29B3ADEB0095ACEE /* Chin Ups.gif */; };
+		789BA2AC29B3ADEB0095ACEE /* Dumbbell Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA25E29B3ADEB0095ACEE /* Dumbbell Curl.gif */; };
+		789BA2AD29B3ADEB0095ACEE /* Barbell Preacher Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA25F29B3ADEB0095ACEE /* Barbell Preacher Curl.gif */; };
+		789BA2AE29B3ADEB0095ACEE /* Dumbbell Hammer Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26029B3ADEB0095ACEE /* Dumbbell Hammer Curl.gif */; };
+		789BA2AF29B3ADEB0095ACEE /* Barbell Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26129B3ADEB0095ACEE /* Barbell Curl.gif */; };
+		789BA2B029B3ADEB0095ACEE /* Step Up.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26329B3ADEB0095ACEE /* Step Up.gif */; };
+		789BA2B129B3ADEB0095ACEE /* Machine Leg Extension.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26429B3ADEB0095ACEE /* Machine Leg Extension.gif */; };
+		789BA2B229B3ADEB0095ACEE /* Machine Leg Press.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26529B3ADEB0095ACEE /* Machine Leg Press.gif */; };
+		789BA2B329B3ADEB0095ACEE /* Barbell Squat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26629B3ADEB0095ACEE /* Barbell Squat.gif */; };
+		789BA2B429B3ADEB0095ACEE /* Forward Lunges.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26729B3ADEB0095ACEE /* Forward Lunges.gif */; };
+		789BA2B529B3ADEB0095ACEE /* Barbell Low Bar Good Morning.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26929B3ADEB0095ACEE /* Barbell Low Bar Good Morning.gif */; };
+		789BA2B629B3ADEB0095ACEE /* Machine Hamstring Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26A29B3ADEB0095ACEE /* Machine Hamstring Curl.gif */; };
+		789BA2B729B3ADEB0095ACEE /* Barbell Stiff Leg Deadlifts.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26B29B3ADEB0095ACEE /* Barbell Stiff Leg Deadlifts.gif */; };
+		789BA2B829B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26C29B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif */; };
+		789BA2B929B3ADEB0095ACEE /* BarbellDeadlift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26E29B3ADEB0095ACEE /* BarbellDeadlift.gif */; };
+		789BA2BA29B3ADEB0095ACEE /* Machine45DegreeBackExtension.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA26F29B3ADEB0095ACEE /* Machine45DegreeBackExtension.gif */; };
+		789BA2BB29B3ADEB0095ACEE /* DumbbellDeadlift.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27029B3ADEB0095ACEE /* DumbbellDeadlift.gif */; };
+		789BA2BC29B3ADEB0095ACEE /* Machine Seated Calf Raises.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27229B3ADEB0095ACEE /* Machine Seated Calf Raises.gif */; };
+		789BA2BD29B3ADEB0095ACEE /* Dumbbell Calf Raise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27329B3ADEB0095ACEE /* Dumbbell Calf Raise.gif */; };
+		789BA2BE29B3ADEB0095ACEE /* Machine Standing Calf Raises.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27429B3ADEB0095ACEE /* Machine Standing Calf Raises.gif */; };
+		789BA2BF29B3ADEB0095ACEE /* DumbbellRowUnilateral.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27629B3ADEB0095ACEE /* DumbbellRowUnilateral.gif */; };
+		789BA2C029B3ADEB0095ACEE /* CablePullover.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27729B3ADEB0095ACEE /* CablePullover.gif */; };
+		789BA2C129B3ADEB0095ACEE /* PullUps.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27829B3ADEB0095ACEE /* PullUps.gif */; };
+		789BA2C229B3ADEB0095ACEE /* MachineSeatedCableRow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27929B3ADEB0095ACEE /* MachineSeatedCableRow.gif */; };
+		789BA2C329B3ADEB0095ACEE /* MachinePulldown.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27A29B3ADEB0095ACEE /* MachinePulldown.gif */; };
+		789BA2C429B3ADEB0095ACEE /* BarbellBentOverRow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27B29B3ADEB0095ACEE /* BarbellBentOverRow.gif */; };
+		789BA2C529B3ADEB0095ACEE /* DumbbellLayingInclineRow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27C29B3ADEB0095ACEE /* DumbbellLayingInclineRow.gif */; };
+		789BA2C629B3ADEB0095ACEE /* Sit Ups.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27E29B3ADEB0095ACEE /* Sit Ups.gif */; };
+		789BA2C729B3ADEB0095ACEE /* Lying Leg Raises.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA27F29B3ADEB0095ACEE /* Lying Leg Raises.gif */; };
+		789BA2C829B3ADEB0095ACEE /* Hanging Knee Raises.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28029B3ADEB0095ACEE /* Hanging Knee Raises.gif */; };
+		789BA2C929B3ADEB0095ACEE /* Crunches.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28129B3ADEB0095ACEE /* Crunches.gif */; };
+		789BA2CA29B3ADEB0095ACEE /* Machine Roll Outs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28229B3ADEB0095ACEE /* Machine Roll Outs.gif */; };
+		789BA2CB29B3ADEB0095ACEE /* Dumbbell Russian Twist.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28429B3ADEB0095ACEE /* Dumbbell Russian Twist.gif */; };
+		789BA2CC29B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28529B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif */; };
+		789BA2CD29B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28629B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif */; };
+		789BA2CE29B3ADEB0095ACEE /* BehindTheBackShrugs.GIF in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */; };
+		789BA2CF29B3ADEB0095ACEE /* DumbbellShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */; };
+		789BA2D029B3ADEB0095ACEE /* OverheadShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */; };
+		789BA2D129B3ADEB0095ACEE /* DumbellSeatedShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */; };
+		789BA2D229B3ADEB0095ACEE /* BarbellShrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28C29B3ADEB0095ACEE /* BarbellShrugs.gif */; };
+		789BA2D329B3ADEB0095ACEE /* Barbell Wrist Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28E29B3ADEB0095ACEE /* Barbell Wrist Curl.gif */; };
+		789BA2D429B3ADEB0095ACEE /* Barbell Behind The Back Wrist Curl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA28F29B3ADEB0095ACEE /* Barbell Behind The Back Wrist Curl.gif */; };
+		789BA2D529B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29029B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif */; };
+		789BA2D629B3ADEB0095ACEE /* Barbell Incline Bench Press.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29229B3ADEB0095ACEE /* Barbell Incline Bench Press.gif */; };
+		789BA2D729B3ADEB0095ACEE /* Cable Crossover.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29329B3ADEB0095ACEE /* Cable Crossover.gif */; };
+		789BA2D829B3ADEB0095ACEE /* Dumbbell Incline Bench Press.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29429B3ADEB0095ACEE /* Dumbbell Incline Bench Press.gif */; };
+		789BA2D929B3ADEB0095ACEE /* Dips.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29529B3ADEB0095ACEE /* Dips.gif */; };
+		789BA2DA29B3ADEB0095ACEE /* Barbell Bench Press.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29629B3ADEB0095ACEE /* Barbell Bench Press.gif */; };
+		789BA2DB29B3ADEB0095ACEE /* Dumbbell Incline Chest Flys.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29729B3ADEB0095ACEE /* Dumbbell Incline Chest Flys.gif */; };
+		789BA2DC29B3ADEB0095ACEE /* Push Up.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29829B3ADEB0095ACEE /* Push Up.gif */; };
+		789BA2DD29B3ADEB0095ACEE /* Butterfly.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29929B3ADEB0095ACEE /* Butterfly.gif */; };
+		789BA2DE29B3ADEB0095ACEE /* Cable Push Down.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29B29B3ADEB0095ACEE /* Cable Push Down.gif */; };
+		789BA2DF29B3ADEB0095ACEE /* Barbell Close Grip Bench Press.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29C29B3ADEB0095ACEE /* Barbell Close Grip Bench Press.gif */; };
+		789BA2E029B3ADEB0095ACEE /* Barbell Skullcrushers.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29D29B3ADEB0095ACEE /* Barbell Skullcrushers.gif */; };
+		789BA2E129B3ADEB0095ACEE /* Cable Skullcrusher.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29E29B3ADEB0095ACEE /* Cable Skullcrusher.gif */; };
+		789BA2E229B3ADEB0095ACEE /* Bench Dips.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA29F29B3ADEB0095ACEE /* Bench Dips.gif */; };
+		789BA2E329B3ADEB0095ACEE /* Barbell Hip Thrust.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A129B3ADEB0095ACEE /* Barbell Hip Thrust.gif */; };
+		789BA2E429B3ADEB0095ACEE /* BarbellUprightRow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A329B3ADEB0095ACEE /* BarbellUprightRow.gif */; };
+		789BA2E529B3ADEB0095ACEE /* DumbbellLateralRaise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A429B3ADEB0095ACEE /* DumbbellLateralRaise.gif */; };
+		789BA2E629B3ADEB0095ACEE /* BarbellOverheadPress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A529B3ADEB0095ACEE /* BarbellOverheadPress.gif */; };
+		789BA2E729B3ADEB0095ACEE /* ElevatedPikePress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A629B3ADEB0095ACEE /* ElevatedPikePress.gif */; };
+		789BA2E829B3ADEB0095ACEE /* ReverseButterfly.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A729B3ADEB0095ACEE /* ReverseButterfly.gif */; };
+		789BA2E929B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A829B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif */; };
+		789BA2EA29B3ADEB0095ACEE /* DumbbellFrontRaise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */; };
 		78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692129AF92BF00862D8D /* AppDelegate.swift */; };
 		78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692329AF92BF00862D8D /* SceneDelegate.swift */; };
 		78D4692629AF92BF00862D8D /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692529AF92BF00862D8D /* ExercisesTableViewController.swift */; };
@@ -19,9 +84,76 @@
 		78D4699229B14BCA00862D8D /* MuscleGroupExercises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699129B14BCA00862D8D /* MuscleGroupExercises.swift */; };
 		78D4699429B14C4300862D8D /* MuscleCategoryEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699329B14C4300862D8D /* MuscleCategoryEnum.swift */; };
 		78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */; };
+		78D4699829B2AE2900862D8D /* UIView to GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699729B2AE2900862D8D /* UIView to GIF.swift */; };
+		78D4699A29B2AE6000862D8D /* DescriptionExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		789BA25C29B3ADEB0095ACEE /* Dumbbell Concentration Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Concentration Curl.gif"; sourceTree = "<group>"; };
+		789BA25D29B3ADEB0095ACEE /* Chin Ups.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Chin Ups.gif"; sourceTree = "<group>"; };
+		789BA25E29B3ADEB0095ACEE /* Dumbbell Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Curl.gif"; sourceTree = "<group>"; };
+		789BA25F29B3ADEB0095ACEE /* Barbell Preacher Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Preacher Curl.gif"; sourceTree = "<group>"; };
+		789BA26029B3ADEB0095ACEE /* Dumbbell Hammer Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Hammer Curl.gif"; sourceTree = "<group>"; };
+		789BA26129B3ADEB0095ACEE /* Barbell Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Curl.gif"; sourceTree = "<group>"; };
+		789BA26329B3ADEB0095ACEE /* Step Up.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Step Up.gif"; sourceTree = "<group>"; };
+		789BA26429B3ADEB0095ACEE /* Machine Leg Extension.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Leg Extension.gif"; sourceTree = "<group>"; };
+		789BA26529B3ADEB0095ACEE /* Machine Leg Press.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Leg Press.gif"; sourceTree = "<group>"; };
+		789BA26629B3ADEB0095ACEE /* Barbell Squat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Squat.gif"; sourceTree = "<group>"; };
+		789BA26729B3ADEB0095ACEE /* Forward Lunges.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Forward Lunges.gif"; sourceTree = "<group>"; };
+		789BA26929B3ADEB0095ACEE /* Barbell Low Bar Good Morning.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Low Bar Good Morning.gif"; sourceTree = "<group>"; };
+		789BA26A29B3ADEB0095ACEE /* Machine Hamstring Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Hamstring Curl.gif"; sourceTree = "<group>"; };
+		789BA26B29B3ADEB0095ACEE /* Barbell Stiff Leg Deadlifts.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Stiff Leg Deadlifts.gif"; sourceTree = "<group>"; };
+		789BA26C29B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Romanian Deadlift.gif"; sourceTree = "<group>"; };
+		789BA26E29B3ADEB0095ACEE /* BarbellDeadlift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BarbellDeadlift.gif; sourceTree = "<group>"; };
+		789BA26F29B3ADEB0095ACEE /* Machine45DegreeBackExtension.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Machine45DegreeBackExtension.gif; sourceTree = "<group>"; };
+		789BA27029B3ADEB0095ACEE /* DumbbellDeadlift.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellDeadlift.gif; sourceTree = "<group>"; };
+		789BA27229B3ADEB0095ACEE /* Machine Seated Calf Raises.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Seated Calf Raises.gif"; sourceTree = "<group>"; };
+		789BA27329B3ADEB0095ACEE /* Dumbbell Calf Raise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Calf Raise.gif"; sourceTree = "<group>"; };
+		789BA27429B3ADEB0095ACEE /* Machine Standing Calf Raises.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Standing Calf Raises.gif"; sourceTree = "<group>"; };
+		789BA27629B3ADEB0095ACEE /* DumbbellRowUnilateral.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellRowUnilateral.gif; sourceTree = "<group>"; };
+		789BA27729B3ADEB0095ACEE /* CablePullover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = CablePullover.gif; sourceTree = "<group>"; };
+		789BA27829B3ADEB0095ACEE /* PullUps.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PullUps.gif; sourceTree = "<group>"; };
+		789BA27929B3ADEB0095ACEE /* MachineSeatedCableRow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MachineSeatedCableRow.gif; sourceTree = "<group>"; };
+		789BA27A29B3ADEB0095ACEE /* MachinePulldown.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = MachinePulldown.gif; sourceTree = "<group>"; };
+		789BA27B29B3ADEB0095ACEE /* BarbellBentOverRow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BarbellBentOverRow.gif; sourceTree = "<group>"; };
+		789BA27C29B3ADEB0095ACEE /* DumbbellLayingInclineRow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellLayingInclineRow.gif; sourceTree = "<group>"; };
+		789BA27E29B3ADEB0095ACEE /* Sit Ups.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Sit Ups.gif"; sourceTree = "<group>"; };
+		789BA27F29B3ADEB0095ACEE /* Lying Leg Raises.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Lying Leg Raises.gif"; sourceTree = "<group>"; };
+		789BA28029B3ADEB0095ACEE /* Hanging Knee Raises.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Hanging Knee Raises.gif"; sourceTree = "<group>"; };
+		789BA28129B3ADEB0095ACEE /* Crunches.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Crunches.gif; sourceTree = "<group>"; };
+		789BA28229B3ADEB0095ACEE /* Machine Roll Outs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Machine Roll Outs.gif"; sourceTree = "<group>"; };
+		789BA28429B3ADEB0095ACEE /* Dumbbell Russian Twist.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Russian Twist.gif"; sourceTree = "<group>"; };
+		789BA28529B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Wood Chopper.gif"; sourceTree = "<group>"; };
+		789BA28629B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Overhead Side Bend.gif"; sourceTree = "<group>"; };
+		789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BehindTheBackShrugs.GIF; sourceTree = "<group>"; };
+		789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellShrugs.gif; sourceTree = "<group>"; };
+		789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OverheadShrugs.gif; sourceTree = "<group>"; };
+		789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbellSeatedShrugs.gif; sourceTree = "<group>"; };
+		789BA28C29B3ADEB0095ACEE /* BarbellShrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BarbellShrugs.gif; sourceTree = "<group>"; };
+		789BA28E29B3ADEB0095ACEE /* Barbell Wrist Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Wrist Curl.gif"; sourceTree = "<group>"; };
+		789BA28F29B3ADEB0095ACEE /* Barbell Behind The Back Wrist Curl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Behind The Back Wrist Curl.gif"; sourceTree = "<group>"; };
+		789BA29029B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Wrist Extension.gif"; sourceTree = "<group>"; };
+		789BA29229B3ADEB0095ACEE /* Barbell Incline Bench Press.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Incline Bench Press.gif"; sourceTree = "<group>"; };
+		789BA29329B3ADEB0095ACEE /* Cable Crossover.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cable Crossover.gif"; sourceTree = "<group>"; };
+		789BA29429B3ADEB0095ACEE /* Dumbbell Incline Bench Press.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Incline Bench Press.gif"; sourceTree = "<group>"; };
+		789BA29529B3ADEB0095ACEE /* Dips.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Dips.gif; sourceTree = "<group>"; };
+		789BA29629B3ADEB0095ACEE /* Barbell Bench Press.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Bench Press.gif"; sourceTree = "<group>"; };
+		789BA29729B3ADEB0095ACEE /* Dumbbell Incline Chest Flys.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Dumbbell Incline Chest Flys.gif"; sourceTree = "<group>"; };
+		789BA29829B3ADEB0095ACEE /* Push Up.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Push Up.gif"; sourceTree = "<group>"; };
+		789BA29929B3ADEB0095ACEE /* Butterfly.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Butterfly.gif; sourceTree = "<group>"; };
+		789BA29B29B3ADEB0095ACEE /* Cable Push Down.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cable Push Down.gif"; sourceTree = "<group>"; };
+		789BA29C29B3ADEB0095ACEE /* Barbell Close Grip Bench Press.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Close Grip Bench Press.gif"; sourceTree = "<group>"; };
+		789BA29D29B3ADEB0095ACEE /* Barbell Skullcrushers.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Skullcrushers.gif"; sourceTree = "<group>"; };
+		789BA29E29B3ADEB0095ACEE /* Cable Skullcrusher.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Cable Skullcrusher.gif"; sourceTree = "<group>"; };
+		789BA29F29B3ADEB0095ACEE /* Bench Dips.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Bench Dips.gif"; sourceTree = "<group>"; };
+		789BA2A129B3ADEB0095ACEE /* Barbell Hip Thrust.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Barbell Hip Thrust.gif"; sourceTree = "<group>"; };
+		789BA2A329B3ADEB0095ACEE /* BarbellUprightRow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BarbellUprightRow.gif; sourceTree = "<group>"; };
+		789BA2A429B3ADEB0095ACEE /* DumbbellLateralRaise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellLateralRaise.gif; sourceTree = "<group>"; };
+		789BA2A529B3ADEB0095ACEE /* BarbellOverheadPress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = BarbellOverheadPress.gif; sourceTree = "<group>"; };
+		789BA2A629B3ADEB0095ACEE /* ElevatedPikePress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ElevatedPikePress.gif; sourceTree = "<group>"; };
+		789BA2A729B3ADEB0095ACEE /* ReverseButterfly.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ReverseButterfly.gif; sourceTree = "<group>"; };
+		789BA2A829B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellSeatedOverheadPress.gif; sourceTree = "<group>"; };
+		789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellFrontRaise.gif; sourceTree = "<group>"; };
 		78D4691E29AF92BF00862D8D /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D4692129AF92BF00862D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78D4692329AF92BF00862D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +168,8 @@
 		78D4699129B14BCA00862D8D /* MuscleGroupExercises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleGroupExercises.swift; sourceTree = "<group>"; };
 		78D4699329B14C4300862D8D /* MuscleCategoryEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleCategoryEnum.swift; sourceTree = "<group>"; };
 		78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleExercisesTableViewCell.swift; sourceTree = "<group>"; };
+		78D4699729B2AE2900862D8D /* UIView to GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView to GIF.swift"; sourceTree = "<group>"; };
+		78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionExercisesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +183,190 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		789BA25A29B3ADEB0095ACEE /* ExercisesGif's */ = {
+			isa = PBXGroup;
+			children = (
+				789BA25B29B3ADEB0095ACEE /* Biceps */,
+				789BA26229B3ADEB0095ACEE /* Quads */,
+				789BA26829B3ADEB0095ACEE /* Hamstrings */,
+				789BA26D29B3ADEB0095ACEE /* Lower-Back */,
+				789BA27129B3ADEB0095ACEE /* Calves */,
+				789BA27529B3ADEB0095ACEE /* Lats */,
+				789BA27D29B3ADEB0095ACEE /* Abdominals */,
+				789BA28329B3ADEB0095ACEE /* Obliques */,
+				789BA28729B3ADEB0095ACEE /* Traps */,
+				789BA28D29B3ADEB0095ACEE /* Forearms */,
+				789BA29129B3ADEB0095ACEE /* Chest */,
+				789BA29A29B3ADEB0095ACEE /* Triceps */,
+				789BA2A029B3ADEB0095ACEE /* Glutes */,
+				789BA2A229B3ADEB0095ACEE /* Shoulders */,
+			);
+			path = "ExercisesGif's";
+			sourceTree = "<group>";
+		};
+		789BA25B29B3ADEB0095ACEE /* Biceps */ = {
+			isa = PBXGroup;
+			children = (
+				789BA25C29B3ADEB0095ACEE /* Dumbbell Concentration Curl.gif */,
+				789BA25D29B3ADEB0095ACEE /* Chin Ups.gif */,
+				789BA25E29B3ADEB0095ACEE /* Dumbbell Curl.gif */,
+				789BA25F29B3ADEB0095ACEE /* Barbell Preacher Curl.gif */,
+				789BA26029B3ADEB0095ACEE /* Dumbbell Hammer Curl.gif */,
+				789BA26129B3ADEB0095ACEE /* Barbell Curl.gif */,
+			);
+			path = Biceps;
+			sourceTree = "<group>";
+		};
+		789BA26229B3ADEB0095ACEE /* Quads */ = {
+			isa = PBXGroup;
+			children = (
+				789BA26329B3ADEB0095ACEE /* Step Up.gif */,
+				789BA26429B3ADEB0095ACEE /* Machine Leg Extension.gif */,
+				789BA26529B3ADEB0095ACEE /* Machine Leg Press.gif */,
+				789BA26629B3ADEB0095ACEE /* Barbell Squat.gif */,
+				789BA26729B3ADEB0095ACEE /* Forward Lunges.gif */,
+			);
+			path = Quads;
+			sourceTree = "<group>";
+		};
+		789BA26829B3ADEB0095ACEE /* Hamstrings */ = {
+			isa = PBXGroup;
+			children = (
+				789BA26929B3ADEB0095ACEE /* Barbell Low Bar Good Morning.gif */,
+				789BA26A29B3ADEB0095ACEE /* Machine Hamstring Curl.gif */,
+				789BA26B29B3ADEB0095ACEE /* Barbell Stiff Leg Deadlifts.gif */,
+				789BA26C29B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif */,
+			);
+			path = Hamstrings;
+			sourceTree = "<group>";
+		};
+		789BA26D29B3ADEB0095ACEE /* Lower-Back */ = {
+			isa = PBXGroup;
+			children = (
+				789BA26E29B3ADEB0095ACEE /* BarbellDeadlift.gif */,
+				789BA26F29B3ADEB0095ACEE /* Machine45DegreeBackExtension.gif */,
+				789BA27029B3ADEB0095ACEE /* DumbbellDeadlift.gif */,
+			);
+			path = "Lower-Back";
+			sourceTree = "<group>";
+		};
+		789BA27129B3ADEB0095ACEE /* Calves */ = {
+			isa = PBXGroup;
+			children = (
+				789BA27229B3ADEB0095ACEE /* Machine Seated Calf Raises.gif */,
+				789BA27329B3ADEB0095ACEE /* Dumbbell Calf Raise.gif */,
+				789BA27429B3ADEB0095ACEE /* Machine Standing Calf Raises.gif */,
+			);
+			path = Calves;
+			sourceTree = "<group>";
+		};
+		789BA27529B3ADEB0095ACEE /* Lats */ = {
+			isa = PBXGroup;
+			children = (
+				789BA27629B3ADEB0095ACEE /* DumbbellRowUnilateral.gif */,
+				789BA27729B3ADEB0095ACEE /* CablePullover.gif */,
+				789BA27829B3ADEB0095ACEE /* PullUps.gif */,
+				789BA27929B3ADEB0095ACEE /* MachineSeatedCableRow.gif */,
+				789BA27A29B3ADEB0095ACEE /* MachinePulldown.gif */,
+				789BA27B29B3ADEB0095ACEE /* BarbellBentOverRow.gif */,
+				789BA27C29B3ADEB0095ACEE /* DumbbellLayingInclineRow.gif */,
+			);
+			path = Lats;
+			sourceTree = "<group>";
+		};
+		789BA27D29B3ADEB0095ACEE /* Abdominals */ = {
+			isa = PBXGroup;
+			children = (
+				789BA27E29B3ADEB0095ACEE /* Sit Ups.gif */,
+				789BA27F29B3ADEB0095ACEE /* Lying Leg Raises.gif */,
+				789BA28029B3ADEB0095ACEE /* Hanging Knee Raises.gif */,
+				789BA28129B3ADEB0095ACEE /* Crunches.gif */,
+				789BA28229B3ADEB0095ACEE /* Machine Roll Outs.gif */,
+			);
+			path = Abdominals;
+			sourceTree = "<group>";
+		};
+		789BA28329B3ADEB0095ACEE /* Obliques */ = {
+			isa = PBXGroup;
+			children = (
+				789BA28429B3ADEB0095ACEE /* Dumbbell Russian Twist.gif */,
+				789BA28529B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif */,
+				789BA28629B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif */,
+			);
+			path = Obliques;
+			sourceTree = "<group>";
+		};
+		789BA28729B3ADEB0095ACEE /* Traps */ = {
+			isa = PBXGroup;
+			children = (
+				789BA28829B3ADEB0095ACEE /* BehindTheBackShrugs.GIF */,
+				789BA28929B3ADEB0095ACEE /* DumbbellShrugs.gif */,
+				789BA28A29B3ADEB0095ACEE /* OverheadShrugs.gif */,
+				789BA28B29B3ADEB0095ACEE /* DumbellSeatedShrugs.gif */,
+				789BA28C29B3ADEB0095ACEE /* BarbellShrugs.gif */,
+			);
+			path = Traps;
+			sourceTree = "<group>";
+		};
+		789BA28D29B3ADEB0095ACEE /* Forearms */ = {
+			isa = PBXGroup;
+			children = (
+				789BA28E29B3ADEB0095ACEE /* Barbell Wrist Curl.gif */,
+				789BA28F29B3ADEB0095ACEE /* Barbell Behind The Back Wrist Curl.gif */,
+				789BA29029B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif */,
+			);
+			path = Forearms;
+			sourceTree = "<group>";
+		};
+		789BA29129B3ADEB0095ACEE /* Chest */ = {
+			isa = PBXGroup;
+			children = (
+				789BA29229B3ADEB0095ACEE /* Barbell Incline Bench Press.gif */,
+				789BA29329B3ADEB0095ACEE /* Cable Crossover.gif */,
+				789BA29429B3ADEB0095ACEE /* Dumbbell Incline Bench Press.gif */,
+				789BA29529B3ADEB0095ACEE /* Dips.gif */,
+				789BA29629B3ADEB0095ACEE /* Barbell Bench Press.gif */,
+				789BA29729B3ADEB0095ACEE /* Dumbbell Incline Chest Flys.gif */,
+				789BA29829B3ADEB0095ACEE /* Push Up.gif */,
+				789BA29929B3ADEB0095ACEE /* Butterfly.gif */,
+			);
+			path = Chest;
+			sourceTree = "<group>";
+		};
+		789BA29A29B3ADEB0095ACEE /* Triceps */ = {
+			isa = PBXGroup;
+			children = (
+				789BA29B29B3ADEB0095ACEE /* Cable Push Down.gif */,
+				789BA29C29B3ADEB0095ACEE /* Barbell Close Grip Bench Press.gif */,
+				789BA29D29B3ADEB0095ACEE /* Barbell Skullcrushers.gif */,
+				789BA29E29B3ADEB0095ACEE /* Cable Skullcrusher.gif */,
+				789BA29F29B3ADEB0095ACEE /* Bench Dips.gif */,
+			);
+			path = Triceps;
+			sourceTree = "<group>";
+		};
+		789BA2A029B3ADEB0095ACEE /* Glutes */ = {
+			isa = PBXGroup;
+			children = (
+				789BA2A129B3ADEB0095ACEE /* Barbell Hip Thrust.gif */,
+			);
+			path = Glutes;
+			sourceTree = "<group>";
+		};
+		789BA2A229B3ADEB0095ACEE /* Shoulders */ = {
+			isa = PBXGroup;
+			children = (
+				789BA2A329B3ADEB0095ACEE /* BarbellUprightRow.gif */,
+				789BA2A429B3ADEB0095ACEE /* DumbbellLateralRaise.gif */,
+				789BA2A529B3ADEB0095ACEE /* BarbellOverheadPress.gif */,
+				789BA2A629B3ADEB0095ACEE /* ElevatedPikePress.gif */,
+				789BA2A729B3ADEB0095ACEE /* ReverseButterfly.gif */,
+				789BA2A829B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif */,
+				789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */,
+			);
+			path = Shoulders;
+			sourceTree = "<group>";
+		};
 		78D4691529AF92BF00862D8D = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +395,7 @@
 				78D4692A29AF92C100862D8D /* Assets.xcassets */,
 				78D4692C29AF92C100862D8D /* LaunchScreen.storyboard */,
 				78D4692F29AF92C100862D8D /* Info.plist */,
+				789BA25A29B3ADEB0095ACEE /* ExercisesGif's */,
 			);
 			path = GymPal;
 			sourceTree = "<group>";
@@ -86,6 +405,7 @@
 			children = (
 				78D4692529AF92BF00862D8D /* ExercisesTableViewController.swift */,
 				78D4698F29B0E60D00862D8D /* MuscleGroupDetailVC.swift */,
+				78D4699929B2AE6000862D8D /* DescriptionExercisesViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,6 +415,7 @@
 			children = (
 				78D4698429AFB5DE00862D8D /* ExercisesTableViewCell.swift */,
 				78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */,
+				78D4699729B2AE2900862D8D /* UIView to GIF.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,9 +488,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				789BA2DC29B3ADEB0095ACEE /* Push Up.gif in Resources */,
+				789BA2C129B3ADEB0095ACEE /* PullUps.gif in Resources */,
+				789BA2AF29B3ADEB0095ACEE /* Barbell Curl.gif in Resources */,
+				789BA2BE29B3ADEB0095ACEE /* Machine Standing Calf Raises.gif in Resources */,
+				789BA2D329B3ADEB0095ACEE /* Barbell Wrist Curl.gif in Resources */,
+				789BA2DF29B3ADEB0095ACEE /* Barbell Close Grip Bench Press.gif in Resources */,
+				789BA2CC29B3ADEB0095ACEE /* Dumbbell Wood Chopper.gif in Resources */,
+				789BA2E929B3ADEB0095ACEE /* DumbbellSeatedOverheadPress.gif in Resources */,
+				789BA2B329B3ADEB0095ACEE /* Barbell Squat.gif in Resources */,
+				789BA2BB29B3ADEB0095ACEE /* DumbbellDeadlift.gif in Resources */,
+				789BA2E229B3ADEB0095ACEE /* Bench Dips.gif in Resources */,
+				789BA2C529B3ADEB0095ACEE /* DumbbellLayingInclineRow.gif in Resources */,
+				789BA2D829B3ADEB0095ACEE /* Dumbbell Incline Bench Press.gif in Resources */,
+				789BA2C729B3ADEB0095ACEE /* Lying Leg Raises.gif in Resources */,
+				789BA2E729B3ADEB0095ACEE /* ElevatedPikePress.gif in Resources */,
+				789BA2BC29B3ADEB0095ACEE /* Machine Seated Calf Raises.gif in Resources */,
+				789BA2BD29B3ADEB0095ACEE /* Dumbbell Calf Raise.gif in Resources */,
+				789BA2C429B3ADEB0095ACEE /* BarbellBentOverRow.gif in Resources */,
+				789BA2D429B3ADEB0095ACEE /* Barbell Behind The Back Wrist Curl.gif in Resources */,
+				789BA2E629B3ADEB0095ACEE /* BarbellOverheadPress.gif in Resources */,
+				789BA2C829B3ADEB0095ACEE /* Hanging Knee Raises.gif in Resources */,
+				789BA2AB29B3ADEB0095ACEE /* Chin Ups.gif in Resources */,
+				789BA2E329B3ADEB0095ACEE /* Barbell Hip Thrust.gif in Resources */,
+				789BA2E429B3ADEB0095ACEE /* BarbellUprightRow.gif in Resources */,
+				789BA2BF29B3ADEB0095ACEE /* DumbbellRowUnilateral.gif in Resources */,
+				789BA2CB29B3ADEB0095ACEE /* Dumbbell Russian Twist.gif in Resources */,
+				789BA2AD29B3ADEB0095ACEE /* Barbell Preacher Curl.gif in Resources */,
+				789BA2B929B3ADEB0095ACEE /* BarbellDeadlift.gif in Resources */,
+				789BA2CF29B3ADEB0095ACEE /* DumbbellShrugs.gif in Resources */,
+				789BA2D629B3ADEB0095ACEE /* Barbell Incline Bench Press.gif in Resources */,
+				789BA2B529B3ADEB0095ACEE /* Barbell Low Bar Good Morning.gif in Resources */,
+				789BA2E529B3ADEB0095ACEE /* DumbbellLateralRaise.gif in Resources */,
+				789BA2B129B3ADEB0095ACEE /* Machine Leg Extension.gif in Resources */,
+				789BA2AC29B3ADEB0095ACEE /* Dumbbell Curl.gif in Resources */,
+				789BA2DD29B3ADEB0095ACEE /* Butterfly.gif in Resources */,
+				789BA2B729B3ADEB0095ACEE /* Barbell Stiff Leg Deadlifts.gif in Resources */,
+				789BA2C629B3ADEB0095ACEE /* Sit Ups.gif in Resources */,
+				789BA2D729B3ADEB0095ACEE /* Cable Crossover.gif in Resources */,
+				789BA2AE29B3ADEB0095ACEE /* Dumbbell Hammer Curl.gif in Resources */,
+				789BA2AA29B3ADEB0095ACEE /* Dumbbell Concentration Curl.gif in Resources */,
+				789BA2DB29B3ADEB0095ACEE /* Dumbbell Incline Chest Flys.gif in Resources */,
+				789BA2C229B3ADEB0095ACEE /* MachineSeatedCableRow.gif in Resources */,
+				789BA2D929B3ADEB0095ACEE /* Dips.gif in Resources */,
+				789BA2D529B3ADEB0095ACEE /* Dumbbell Wrist Extension.gif in Resources */,
+				789BA2B029B3ADEB0095ACEE /* Step Up.gif in Resources */,
+				789BA2E829B3ADEB0095ACEE /* ReverseButterfly.gif in Resources */,
+				789BA2B829B3ADEB0095ACEE /* Dumbbell Romanian Deadlift.gif in Resources */,
 				78D4692E29AF92C100862D8D /* LaunchScreen.storyboard in Resources */,
+				789BA2CE29B3ADEB0095ACEE /* BehindTheBackShrugs.GIF in Resources */,
+				789BA2C929B3ADEB0095ACEE /* Crunches.gif in Resources */,
+				789BA2B629B3ADEB0095ACEE /* Machine Hamstring Curl.gif in Resources */,
+				789BA2EA29B3ADEB0095ACEE /* DumbbellFrontRaise.gif in Resources */,
+				789BA2CA29B3ADEB0095ACEE /* Machine Roll Outs.gif in Resources */,
+				789BA2C329B3ADEB0095ACEE /* MachinePulldown.gif in Resources */,
+				789BA2B229B3ADEB0095ACEE /* Machine Leg Press.gif in Resources */,
+				789BA2D229B3ADEB0095ACEE /* BarbellShrugs.gif in Resources */,
+				789BA2E129B3ADEB0095ACEE /* Cable Skullcrusher.gif in Resources */,
+				789BA2D029B3ADEB0095ACEE /* OverheadShrugs.gif in Resources */,
 				78D4692B29AF92C100862D8D /* Assets.xcassets in Resources */,
+				789BA2D129B3ADEB0095ACEE /* DumbellSeatedShrugs.gif in Resources */,
+				789BA2BA29B3ADEB0095ACEE /* Machine45DegreeBackExtension.gif in Resources */,
 				78D4692929AF92BF00862D8D /* Main.storyboard in Resources */,
+				789BA2B429B3ADEB0095ACEE /* Forward Lunges.gif in Resources */,
+				789BA2DA29B3ADEB0095ACEE /* Barbell Bench Press.gif in Resources */,
+				789BA2CD29B3ADEB0095ACEE /* Dumbbell Overhead Side Bend.gif in Resources */,
+				789BA2C029B3ADEB0095ACEE /* CablePullover.gif in Resources */,
+				789BA2DE29B3ADEB0095ACEE /* Cable Push Down.gif in Resources */,
+				789BA2E029B3ADEB0095ACEE /* Barbell Skullcrushers.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,8 +572,10 @@
 				78D4699029B0E60D00862D8D /* MuscleGroupDetailVC.swift in Sources */,
 				78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */,
 				78D4698A29AFB84700862D8D /* MuscleGroupWorkouts.swift in Sources */,
+				78D4699829B2AE2900862D8D /* UIView to GIF.swift in Sources */,
 				78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */,
 				78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */,
+				78D4699A29B2AE6000862D8D /* DescriptionExercisesViewController.swift in Sources */,
 				78D4699429B14C4300862D8D /* MuscleCategoryEnum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
