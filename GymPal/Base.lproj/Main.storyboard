@@ -259,11 +259,19 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="bxB-G6-T9m">
+                                                <rect key="frame" x="0.0" y="24" width="99" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="33"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" red="0.68946953720000004" green="0.36028548300000002" blue="0.28382123440000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-g7-Jce">
-                                        <rect key="frame" x="128" y="18" width="99" height="88"/>
+                                        <rect key="frame" x="127" y="18" width="99" height="88"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FwP-Ne-Yh9">
@@ -273,6 +281,14 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="yBo-QU-FLR">
+                                                <rect key="frame" x="0.0" y="24" width="99" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="33"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" red="0.68946953720000004" green="0.36028548300000002" blue="0.28382123440000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </view>
@@ -293,6 +309,18 @@
                                     <segue destination="Khk-gk-Fgs" kind="show" identifier="ShowExerciseDesription" id="HyR-hl-rEf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiE-bY-oxb">
+                                <rect key="frame" x="310" y="592.66666666666663" width="66" height="34.333333333333371"/>
+                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Done">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleHeadline"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="doneButtonAction:" destination="l8c-1C-6sY" eventType="touchUpInside" id="98L-ea-ouV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ABG-9q-Jg9"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -301,12 +329,14 @@
                             <constraint firstItem="TsK-Pa-nSi" firstAttribute="top" secondItem="E4B-Sn-dKq" secondAttribute="top" id="2EA-Ev-F9x"/>
                             <constraint firstItem="P5d-v9-JWs" firstAttribute="leading" secondItem="ABG-9q-Jg9" secondAttribute="leading" constant="14" id="4Hn-kK-b9i"/>
                             <constraint firstItem="TsK-Pa-nSi" firstAttribute="trailing" secondItem="ABG-9q-Jg9" secondAttribute="trailing" id="5fJ-Wb-FbH"/>
+                            <constraint firstItem="P5d-v9-JWs" firstAttribute="top" secondItem="aiE-bY-oxb" secondAttribute="bottom" constant="3" id="BaN-sa-oAu"/>
                             <constraint firstItem="P5d-v9-JWs" firstAttribute="top" secondItem="iHu-zw-eYM" secondAttribute="bottom" constant="3" id="DSl-gK-Iki"/>
                             <constraint firstItem="TsK-Pa-nSi" firstAttribute="leading" secondItem="ABG-9q-Jg9" secondAttribute="leading" id="IL4-mu-mXe"/>
                             <constraint firstItem="ABG-9q-Jg9" firstAttribute="trailing" secondItem="P5d-v9-JWs" secondAttribute="trailing" constant="14" id="L7z-lZ-dSC"/>
                             <constraint firstItem="iHu-zw-eYM" firstAttribute="leading" secondItem="ABG-9q-Jg9" secondAttribute="leading" constant="14" id="eoc-Sa-FZo"/>
                             <constraint firstItem="D2M-b0-ht0" firstAttribute="leading" secondItem="ABG-9q-Jg9" secondAttribute="leading" constant="16" id="fnj-UD-f9c"/>
                             <constraint firstItem="ABG-9q-Jg9" firstAttribute="bottom" secondItem="P5d-v9-JWs" secondAttribute="bottom" constant="3" id="hxz-DB-KaO"/>
+                            <constraint firstItem="ABG-9q-Jg9" firstAttribute="trailing" secondItem="aiE-bY-oxb" secondAttribute="trailing" constant="14" id="jHw-uh-7og"/>
                             <constraint firstItem="ABG-9q-Jg9" firstAttribute="trailing" secondItem="D2M-b0-ht0" secondAttribute="trailing" constant="16" id="nYe-Jt-tpk"/>
                             <constraint firstItem="P5d-v9-JWs" firstAttribute="top" secondItem="D2M-b0-ht0" secondAttribute="bottom" constant="69" id="z5I-xh-AqK"/>
                         </constraints>
@@ -315,11 +345,15 @@
                     <splitViewDetailSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="backStaticsView" destination="P5d-v9-JWs" id="6FQ-lj-RgB"/>
+                        <outlet property="doneButton" destination="aiE-bY-oxb" id="wUK-co-mUe"/>
                         <outlet property="exerciseGif" destination="D2M-b0-ht0" id="k28-3D-BpJ"/>
                         <outlet property="exerciseName" destination="9G5-kk-FNx" id="guJ-Bh-QPs"/>
                         <outlet property="firstVidjet" destination="RKF-DM-NJG" id="J90-pS-jLi"/>
+                        <outlet property="infoButonOutlet" destination="iHu-zw-eYM" id="qXY-x3-aZs"/>
+                        <outlet property="repsTextField" destination="yBo-QU-FLR" id="rd5-ve-8b8"/>
                         <outlet property="secondVidjet" destination="jBr-g7-Jce" id="ajW-Fh-qYY"/>
                         <outlet property="thirdVidjet" destination="PM2-fn-98G" id="DLv-HU-dwe"/>
+                        <outlet property="weightsTextfield" destination="bxB-G6-T9m" id="DxR-WH-JyE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jCa-kh-lHn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

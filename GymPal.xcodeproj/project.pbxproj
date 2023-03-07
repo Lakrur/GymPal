@@ -73,6 +73,7 @@
 		789BA2EA29B3ADEB0095ACEE /* DumbbellFrontRaise.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */; };
 		789BA2EC29B3BFF00095ACEE /* Behind The Back Shrugs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 789BA2EB29B3BFF00095ACEE /* Behind The Back Shrugs.gif */; };
 		78BF753729B3D98100BCAED6 /* DescriptionExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */; };
+		78BF753929B7792300BCAED6 /* TextFieldSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF753829B7792300BCAED6 /* TextFieldSettings.swift */; };
 		78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692129AF92BF00862D8D /* AppDelegate.swift */; };
 		78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692329AF92BF00862D8D /* SceneDelegate.swift */; };
 		78D4692629AF92BF00862D8D /* ExercisesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4692529AF92BF00862D8D /* ExercisesTableViewController.swift */; };
@@ -156,6 +157,7 @@
 		789BA2A929B3ADEB0095ACEE /* DumbbellFrontRaise.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DumbbellFrontRaise.gif; sourceTree = "<group>"; };
 		789BA2EB29B3BFF00095ACEE /* Behind The Back Shrugs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Behind The Back Shrugs.gif"; sourceTree = "<group>"; };
 		78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionExercisesViewController.swift; sourceTree = "<group>"; };
+		78BF753829B7792300BCAED6 /* TextFieldSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldSettings.swift; sourceTree = "<group>"; };
 		78D4691E29AF92BF00862D8D /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D4692129AF92BF00862D8D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78D4692329AF92BF00862D8D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 				78D4698429AFB5DE00862D8D /* ExercisesTableViewCell.swift */,
 				78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */,
 				78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */,
+				78BF753829B7792300BCAED6 /* TextFieldSettings.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */,
 				78BF753729B3D98100BCAED6 /* DescriptionExercisesViewController.swift in Sources */,
 				78D4698A29AFB84700862D8D /* MuscleGroupWorkouts.swift in Sources */,
+				78BF753929B7792300BCAED6 /* TextFieldSettings.swift in Sources */,
 				78D4699829B2AE2900862D8D /* UIImageView to GIF.swift in Sources */,
 				78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */,
 				78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */,
