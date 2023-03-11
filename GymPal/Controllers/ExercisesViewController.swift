@@ -30,6 +30,7 @@ class ExercisesViewController: UIViewController {
     var isTextFieldMovedUp = false
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -65,6 +66,7 @@ class ExercisesViewController: UIViewController {
     }
     
     
+    
     @IBAction func doneButtonAction(_ sender: Any) {
         weightsTextfield.resignFirstResponder()
         repsTextField.resignFirstResponder()
@@ -74,6 +76,11 @@ class ExercisesViewController: UIViewController {
             moveTextField(textField: weightsTextfield, moveDistance: -290, up: false)
             isTextFieldMovedUp = false
         }
+    }
+    
+    
+    @IBAction func saveReps(_ sender: Any) {
+        
     }
 }
 
