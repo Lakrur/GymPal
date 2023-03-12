@@ -15,7 +15,7 @@ struct MuscleGroupExercises {
     var description: String
     var muscleGroup: MuscleGroup
     var presentation: String
-    var reps: Int?
-    var weight: Float?
+    var reps: String?
+    var weight: String?
     
 }

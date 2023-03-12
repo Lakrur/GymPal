@@ -21,28 +21,21 @@ class ExercisesViewController: UIViewController {
     @IBOutlet weak var doneButton: UIButton!
     @IBOutlet weak var infoButonOutlet: UIButton!
     
-    var getExerciseGif = ""
-    var exerciseNameText = ""
-    var getExerciseDescription = ""
-    
-    var exerciseDescription = ""
-    var exerciseImage: UIImage?
+    var selectedExercise: MuscleGroupExercises!
     var isTextFieldMovedUp = false
-    
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         doneButton.layer.cornerRadius = 10
         doneButton.isHidden = true
-        exerciseName.text = exerciseNameText
+        exerciseName.text = selectedExercise.name
         backStaticsView.layer.cornerRadius = 10
         firstVidjet.layer.cornerRadius = 8
         secondVidjet.layer.cornerRadius = 8
         thirdVidjet.layer.cornerRadius = 8
         
-        exerciseGif.loadGif(name: getExerciseGif)
+        exerciseGif.loadGif(name: selectedExercise.presentation)
         
         weightsTextfield.delegate = self
         repsTextField.delegate = self
@@ -57,8 +50,8 @@ class ExercisesViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ShowExerciseDesription" {
             let descriptionExercisesVC = segue.destination as! DescriptionExercisesViewController
-            descriptionExercisesVC.exerciseDescription = exerciseDescription
-            descriptionExercisesVC.exerciseImage = exerciseImage
+            descriptionExercisesVC.exerciseDescription = selectedExercise.description
+            descriptionExercisesVC.exerciseImage = selectedExercise.image
         }
     }
     
@@ -80,6 +73,14 @@ class ExercisesViewController: UIViewController {
     
     
     @IBAction func saveReps(_ sender: Any) {
+        
+        guard repsTextField.text?.isEmpty == false else { return }
+        guard weightsTextfield.text?.isEmpty == false else { return }
+        
+        selectedExercise.weight = weightsTextfield.text!
+        selectedExercise.reps = repsTextField.text!
+        
+        print(selectedExercise!)
         
     }
 }

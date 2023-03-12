@@ -21,12 +21,6 @@ class MuscleGroupDetailVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableView.backgroundColor = UIColor.white
-        tableView.delegate = self
-        tableView.dataSource = self
-        
-        titleMuscleGroup.text = muscleGroupsNames
-        
         exercisesList = [
             // traps
             MuscleGroupExercises(name: "Dumbell Seated Shrugs",image: UIImage(named: "seatedShrug")!, description: "From a seated position, grasp a dumbbell in each hand and hold them to either side of your body. Keeping your body upright, shrug your shoulders as high as you can. Squeeze at the peak contraction before lowering the dumbbells slowly to the start position. Avoid using momentum to lift the weight and allow the weight you stretch your traps before pulling up for another repetition.", muscleGroup: .traps, presentation: "DumbellSeatedShrugs"),
@@ -112,8 +106,14 @@ class MuscleGroupDetailVC: UIViewController {
             MuscleGroupExercises(name: "Machine Standing Calf Raises", image: UIImage(named: "standingCalfRaises")!, description: "Adjust the shoulder pad corresponding to your height. Step underneath the pad and place the balls of your feet on the platform with your toes pointed straight ahead - your heels will naturally hang off. Extend the hips and knees in order to raise the shoulder pad. Lower the heels by dorsiflexing the ankles until the calves are fully stretched. Extend the ankles and exhale as you flex the calves. Repeat for the assigned number of repetitions. Keep the repetitions slow and controlled. Limit momentum and pause at the top to emphasize the contraction. If you experience any sort of pain or pressure in the back of the knee joint, keep a slight bend in the knee and avoid complete lockout. If the knee isn’t entirely locked out then ensure the position doesn’t change during the duration of the repetition. Limit depth of the heels if you feel any sort of stretch through the bottom of the foot during the exercise. Try to move through the ball of the foot rather than the base of the toes.", muscleGroup: .calves, presentation: "Machine Standing Calf Raises"),
             MuscleGroupExercises(name: "Machine Seated Calf Raises", image: UIImage(named: "seatedCalfRaises")!, description: "Take a seat on the machine and place the balls of your feet on the platform with your toes pointed forward - your heels will naturally hang off. Position the base of quads under the knee pad and allow your hands to rest on top. Extend your ankles and release the safety bar. Lower the heels by dorsiflexing the ankles until the calves are fully stretched. Extend the ankles and exhale as you flex the calves. Repeat for the assigned number of repetitions. Keep the repetitions slow and controlled. Limit momentum and pause at the top to emphasize the contraction. Limit depth of the heels if you feel any sort of stretch through the bottom of the foot during the exercise.Try to move through the ball of the foot rather than the base of the toes.", muscleGroup: .calves, presentation: "Machine Seated Calf Raises"),
             MuscleGroupExercises(name: "Dumbbell Calf Raise", image: UIImage(named: "dumbbellCalfRaise")!, description: "To do a calf raise with dumbbells, hold a dumbbell in each hand and stand with your feet about shoulder-width apart. Let your arms hang straight below your shoulders. Rise up onto your toes, then slowly return to the starting position. You'll feel tension in the muscles in the back of your lower legs.When you're doing calf raises, keep your back and knees straight. If you have trouble balancing, use a chair or pole for added stability.", muscleGroup: .calves, presentation: "Dumbbell Calf Raise")]
-        
         exercisesList = exercisesList.filter { $0.muscleGroup == muscleGroup }
+        
+        
+        tableView.backgroundColor = UIColor.white
+        tableView.delegate = self
+        tableView.dataSource = self
+        
+        titleMuscleGroup.text = muscleGroupsNames
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -142,11 +142,7 @@ class MuscleGroupDetailVC: UIViewController {
         if segue.identifier == "ShowExercisesDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let exercisesVC = segue.destination as! ExercisesViewController
-                exercisesVC.getExerciseGif = exercisesList[indexPath.row].presentation
-                exercisesVC.exerciseNameText = exercisesList[indexPath.row].name
-                exercisesVC.exerciseDescription = exercisesList[indexPath.row].description
-                exercisesVC.exerciseImage = exercisesList[indexPath.row].image
-                
+                exercisesVC.selectedExercise = exercisesList[indexPath.row]
             }
         }
     }
