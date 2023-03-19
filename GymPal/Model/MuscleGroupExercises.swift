@@ -7,15 +7,27 @@
 
 import Foundation
 import UIKit
+import RealmSwift
 
-struct MuscleGroupExercises {
+class MuscleGroupExercises: Object {
     
-    var name: String
-    var image: UIImage
-    var description: String
-    var muscleGroup: MuscleGroup
-    var presentation: String
-    var reps: String?
-    var weight: String?
+    @Persisted var name: String
+    @Persisted var image: String
+    @Persisted var exerciseDescription: String
+    @Persisted var muscleGroup: MuscleGroup
+    @Persisted var presentation: String
+    @Persisted var reps: String?
+    @Persisted var weight: String?
+    @Persisted var id: Int
+    
+    convenience init(name: String, image: String, exerciseDescription: String, muscleGroup: MuscleGroup, presentation: String, id: Int) {
+        self.init()
+        self.name = name
+        self.image = image
+        self.exerciseDescription = exerciseDescription
+        self.muscleGroup = muscleGroup
+        self.presentation = presentation
+        self.id = id
+    }
     
 }
