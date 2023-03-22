@@ -91,6 +91,8 @@
 		78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */; };
 		78D4699829B2AE2900862D8D /* UIImageView to GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */; };
 		78D4699A29B2AE6000862D8D /* ExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D4699929B2AE6000862D8D /* ExercisesViewController.swift */; };
+		78EF3C6729CA57BB005F0354 /* ProgressDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF3C6629CA57BB005F0354 /* ProgressDetailViewController.swift */; };
+		78EF3C6929CB9C84005F0354 /* ProgressDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EF3C6829CB9C84005F0354 /* ProgressDetailTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +180,8 @@
 		78D4699529B156D800862D8D /* MuscleExercisesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleExercisesTableViewCell.swift; sourceTree = "<group>"; };
 		78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView to GIF.swift"; sourceTree = "<group>"; };
 		78D4699929B2AE6000862D8D /* ExercisesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesViewController.swift; sourceTree = "<group>"; };
+		78EF3C6629CA57BB005F0354 /* ProgressDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDetailViewController.swift; sourceTree = "<group>"; };
+		78EF3C6829CB9C84005F0354 /* ProgressDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDetailTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +422,7 @@
 				78D4699929B2AE6000862D8D /* ExercisesViewController.swift */,
 				78BF753629B3D98100BCAED6 /* DescriptionExercisesViewController.swift */,
 				78BF754129BE345700BCAED6 /* ProgressViewController.swift */,
+				78EF3C6629CA57BB005F0354 /* ProgressDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 				78BF754329BE434D00BCAED6 /* ProgressTableViewCell.swift */,
 				78D4699729B2AE2900862D8D /* UIImageView to GIF.swift */,
 				78BF753829B7792300BCAED6 /* TextFieldSettings.swift */,
+				78EF3C6829CB9C84005F0354 /* ProgressDetailTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -591,12 +597,14 @@
 				78BF754429BE434D00BCAED6 /* ProgressTableViewCell.swift in Sources */,
 				78D4698529AFB5DE00862D8D /* ExercisesTableViewCell.swift in Sources */,
 				78D4699029B0E60D00862D8D /* MuscleGroupDetailVC.swift in Sources */,
+				78EF3C6929CB9C84005F0354 /* ProgressDetailTableViewCell.swift in Sources */,
 				78BF754229BE345700BCAED6 /* ProgressViewController.swift in Sources */,
 				78D4692229AF92BF00862D8D /* AppDelegate.swift in Sources */,
 				78BF753729B3D98100BCAED6 /* DescriptionExercisesViewController.swift in Sources */,
 				78BF753929B7792300BCAED6 /* TextFieldSettings.swift in Sources */,
 				78D4699829B2AE2900862D8D /* UIImageView to GIF.swift in Sources */,
 				78D4692429AF92BF00862D8D /* SceneDelegate.swift in Sources */,
+				78EF3C6729CA57BB005F0354 /* ProgressDetailViewController.swift in Sources */,
 				78D4699629B156D800862D8D /* MuscleExercisesTableViewCell.swift in Sources */,
 				78D4699A29B2AE6000862D8D /* ExercisesViewController.swift in Sources */,
 				78D4699429B14C4300862D8D /* MuscleCategoryEnum.swift in Sources */,

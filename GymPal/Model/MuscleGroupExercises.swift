@@ -16,11 +16,11 @@ class MuscleGroupExercises: Object {
     @Persisted var exerciseDescription: String
     @Persisted var muscleGroup: MuscleGroup
     @Persisted var presentation: String
-    @Persisted var reps: String?
-    @Persisted var weight: String?
     @Persisted var id: Int
+    @Persisted var reps: String
+    @Persisted var weight: String
     
-    convenience init(name: String, image: String, exerciseDescription: String, muscleGroup: MuscleGroup, presentation: String, id: Int) {
+    convenience init(name: String, image: String, exerciseDescription: String, muscleGroup: MuscleGroup, presentation: String, id: Int, reps: String, weight: String) {
         self.init()
         self.name = name
         self.image = image
@@ -28,6 +28,8 @@ class MuscleGroupExercises: Object {
         self.muscleGroup = muscleGroup
         self.presentation = presentation
         self.id = id
+        self.reps = reps
+        self.weight = weight
     }
     
 }
