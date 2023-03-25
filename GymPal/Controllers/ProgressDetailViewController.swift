@@ -20,6 +20,7 @@ class ProgressDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tableView.backgroundColor = UIColor.white
         tableView.dataSource = self
         tableView.delegate = self
         
