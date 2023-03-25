@@ -28,11 +28,13 @@ class ProgressViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+    
+        
         let realm = try! Realm()
         for id in 1...70 {
             
             if let exercise = realm.objects(MuscleGroupExercises.self).filter("id == %@", id).first {
-                
+               
                 if !progressExercises.contains(where: { $0.id == exercise.id }) {
                     progressExercises.append(exercise)
                 }
@@ -73,3 +75,4 @@ class ProgressViewController: UIViewController {
 
 extension ProgressViewController: UITableViewDelegate, UITableViewDataSource {
 }
+
