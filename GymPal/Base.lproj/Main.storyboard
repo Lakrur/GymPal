@@ -445,54 +445,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="ApM-HJ-X4z" kind="relationship" relationship="viewControllers" id="x6v-Bu-FXC"/>
-                        <segue destination="08E-uY-DdB" kind="relationship" relationship="viewControllers" id="lOy-HS-tKe"/>
                         <segue destination="aNf-y9-q52" kind="relationship" relationship="viewControllers" id="Gxe-jg-6TH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eio-cD-rjw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-627" y="304"/>
-        </scene>
-        <!--Plans-->
-        <scene sceneID="gEp-Fk-bSz">
-            <objects>
-                <viewController id="08E-uY-DdB" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UBh-0t-xKf">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8gk-ux-hGf">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="161"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Plans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfN-SH-zcB">
-                                        <rect key="frame" x="17" y="111" width="89" height="36"/>
-                                        <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="29"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.82907801869999997" green="0.43719863889999999" blue="0.34114497900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="390" id="5oi-7B-CNo"/>
-                                    <constraint firstItem="rfN-SH-zcB" firstAttribute="leading" secondItem="8gk-ux-hGf" secondAttribute="leading" constant="17" id="Wmm-z5-WS6"/>
-                                    <constraint firstAttribute="height" constant="161" id="ivt-s5-K1N"/>
-                                    <constraint firstAttribute="bottom" secondItem="rfN-SH-zcB" secondAttribute="bottom" constant="14" id="lF1-Zu-INe"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="o1O-10-caL"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="8gk-ux-hGf" firstAttribute="top" secondItem="UBh-0t-xKf" secondAttribute="top" id="43d-6e-r35"/>
-                            <constraint firstItem="8gk-ux-hGf" firstAttribute="trailing" secondItem="o1O-10-caL" secondAttribute="trailing" id="C7r-1Q-Cec"/>
-                            <constraint firstItem="8gk-ux-hGf" firstAttribute="leading" secondItem="o1O-10-caL" secondAttribute="leading" id="bua-2y-r3K"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Plans" image="plans" id="dVS-IP-Zgy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zYx-Mg-N2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="969.23076923076917" y="312.7962085308057"/>
         </scene>
         <!--Progress-->
         <scene sceneID="Jbb-e1-Ne0">
@@ -701,6 +659,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <constraints>
                                                 <constraint firstAttribute="bottomMargin" secondItem="OiJ-G5-2QC" secondAttribute="bottom" constant="3" id="5Eb-zj-sIm"/>
                                                 <constraint firstItem="RXl-tH-RoA" firstAttribute="top" secondItem="zPj-Ra-K0H" secondAttribute="topMargin" id="DsA-Fu-S0S"/>
@@ -802,7 +761,6 @@
         <image name="arrow" width="20" height="20"/>
         <image name="exercises" width="25" height="25"/>
         <image name="info.circle" catalog="system" width="128" height="123"/>
-        <image name="plans" width="25" height="25"/>
         <image name="plus" width="80" height="71"/>
         <image name="stats" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
