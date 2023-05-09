@@ -5,12 +5,13 @@
 <p align="center">
    <img src="https://img.shields.io/badge/-Swift-000000?style=for-the-badge&logo=swift" alt="Unity Version">
    <img src="https://img.shields.io/badge/-UIKit-000000?style=for-the-badge&logo=swift" alt="Unity Version">
+   <img src="https://img.shields.io/badge/-MVC-000000?style=for-the-badge&logo=swift" alt="Unity Version">
    <img src="https://img.shields.io/badge/-Realm-000000?style=for-the-badge&logo=realm" alt="Unity Version">
 </p>
 
 ## About
 
-Match game in the One Piece universe. The user needs to find identical cards and earn belly. For belly, the user can buy new characters of different rarity. The higher the rarity, the more the character costs and, accordingly, the more belly will bring when finding two identical cards. Also for belly the user can buy decorations, for example: Different card covers (flags), as well as buy backgrounds with unique pictures.
+This is an application in which you can see the different exercises for each muscle group in the gym and their correct execution. You can also add your progress to a separate tab and track how you progressed in a certain exercise.
 
 ## Presentation 
 
