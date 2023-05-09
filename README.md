@@ -18,7 +18,7 @@ This is an application in which you can see the different exercises for each mus
 
 | Description | Presentation |
 | --- | --- |
-| On first launch, the user is greeted by a PageView, quickly going through the most basic details. | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWIzNDVhYzA2YWU5OTdhZjU3Y2RmNjM2YmE4MmE0NDQ5MDNiZGFjOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mO4XnPTTMRfiYJDNJL/giphy.gif" width="300" height="600">  |
+| When you start the application, you meet two sectors in the progress and exercises tapbar. In progress, the list is initially empty, and in the exercises you see a list of muscle groups. | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWIzNDVhYzA2YWU5OTdhZjU3Y2RmNjM2YmE4MmE0NDQ5MDNiZGFjOCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/mO4XnPTTMRfiYJDNJL/giphy.gif" width="300" height="600">  |
 | Find matching cards and get belly | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGU4MTk2ZmNjZDBmMzA1NjMzYWNhM2JlM2FjMzM0YjNmM2U5NTEyNiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/v38n7ikKWyanJxWmh4/giphy.gif" width="300" height="600"> | 
 | Earn Belly and buy new characters | <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZGEyNDljNGM0OTFkZTg0YWJjMzIxMjZhZWIxMTc5MTM4Mzc0YTM5MSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/lwwQ8BxDWpW2n8dY4Q/giphy.gif" width="300" height="600"> | 
 
